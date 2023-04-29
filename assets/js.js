@@ -35,3 +35,10 @@ jQuery('.scroll-arrow').on('click', function(){
         scrollTop: jQuery("#"+div).offset().top - 200
     }, 2000);
 });
+
+jQuery('.scroll-arrow-mob').on('click', function(){
+  let div = jQuery(this).attr('data-target');
+  jQuery('html, body').animate({
+        scrollTop: jQuery("#"+div).offset().top - 50
+    }, 2000);
+});

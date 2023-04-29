@@ -19,9 +19,9 @@ if (isset($_POST['name']))
     <meta property="og:url" content="https://ps.medianssolutions.com/">
     <meta property="og:image" content="https://https://ps.medianssolutions.com/launch.png">
     <meta property="og:description" content="Welcome to Medians PS® cloud management system for cyber cafes & Playstation gaming lounges.">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://ps.medianssolutions.com/whitelogo.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://ps.medianssolutions.com/whitelogo.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://ps.medianssolutions.com/whitelogo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://ps.medianssolutions.com/assets/whitelogo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://ps.medianssolutions.com/assets/whitelogo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://ps.medianssolutions.com/assets/whitelogo.png">
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="theme-color" content="#ffffff">
     <!-- All in One SEO Pack 2.10.1 by Michael Torbert of Semper Fi Web Design[353,372] -->
@@ -33,7 +33,7 @@ if (isset($_POST['name']))
     <link rel="stylesheet" href="./assets/header.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Abel&family=Fjalla+One&display=swap" >
     <link rel="stylesheet" href="./assets/fonts/stylesheet.css" >
-    <link rel="stylesheet" href="./tailwind2.css">
+    <link rel="stylesheet" href="./assets/tailwind2.css">
     <link rel="stylesheet" href="./assets/custom.css">
     <!-- OWL carousel -->
     <link rel="stylesheet" href="./assets/owl/dist/assets/owl.carousel.min.css">
@@ -60,12 +60,12 @@ if (isset($_POST['name']))
     <div class="mob-nav js-mob-nav" data-active="off">
         <div>
             <ul>
-                <li><a href="javascript:;" class="scroll-arrow js-mob-nav-btn" data-target="page-content">Home</a></li>
-                <li><a href="javascript:;" class="scroll-arrow js-mob-nav-btn" data-target="medians-intro">What</a></li>
-                <li><a href="javascript:;" class="scroll-arrow js-mob-nav-btn" data-target="medians-what-block">Show</a></li>
-                <li><a href="javascript:;" class="scroll-arrow js-mob-nav-btn" data-target="medians-loyal">Loyalty</a></li>
-                <li><a href="javascript:;" class="scroll-arrow js-mob-nav-btn" data-target="medians-who">Who</a></li>
-                <li><a href="javascript:;" class="scroll-arrow js-mob-nav-btn" data-target="contact-form">Start<span class="wiggle"></span></a></li>
+                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="page-content">Home</a></li>
+                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-intro">What</a></li>
+                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-what-block">Show</a></li>
+                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-loyal">Loyalty</a></li>
+                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-who">Who</a></li>
+                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="contact-form">Start<span class="wiggle"></span></a></li>
             </ul>
         </div>
         <div>
@@ -100,7 +100,7 @@ if (isset($_POST['name']))
     </ul>
     <nav class="pos-f js-watch-state about" data-state="" data-active="on" data-page-scrolled="">
         <a href="./" class="logo logo-shield-wrap js-nav-logo js-watch-foreground-color"  style="width:180px">
-            <img src="./whitelogo.png" style="width:100px">
+            <img src="./assets/whitelogo.png" style="width:100px">
         </a>
         <ul class="main-nav flex-horiz" data-state="what">
             <li><a href="./" class="nav-intro wiggle-link active" data-new-state="intro">Home<span class="wiggle"></span></a></li>
@@ -157,17 +157,19 @@ if (isset($_POST['name']))
                 </section>
                 <section class="js-monitor-scroll white-bg rule-below" data-active="off" id="medians-what">
                     <div class="content" style="margin-bottom: 10vh;" id="medians-what-block">
-                        <h3>What We Did</h3>
-                        <p>We specialize in providing personalized digital solutions that are tailored to your business needs and goals using automation & AI technology, we'll help you grow your business and achieve success</p>
-                        <div class="owl-carousel">
-                            <a href=""><img src="./assets/intro-figures.png" /></a>
-                            <a href=""><img src="./assets/intro-figures.png" /></a>
-                            <a href=""><img src="./assets/intro-figures.png" /></a>
-                            <a href=""><img src="./assets/intro-figures.png" /></a>
-                            <a href=""><img src="./assets/intro-figures.png" /></a>
-                            <a href=""><img src="./assets/intro-figures.png" /></a>
-                            <a href=""><img src="./assets/intro-figures.png" /></a>
-                            <a href=""><img src="./assets/intro-figures.png" /></a>
+                        <div class="w-full flex">
+                            <div class="w-full">
+                                <h3>What We Did</h3>
+                                <p class="text-xl font-semibold">Control your business cloud wherever you are.</p>
+                                <p>We specialize in providing personalized digital solutions that are tailored to your business needs and goals using automation & AI technology, we'll help you grow your business and achieve success</p>
+                                
+                            </div>
+                            <div class="w-full">
+                                <div class="owl-carousel">
+                                    <a href=""><img class="rouded rouded-lg" src="./assets/intro-figures.png" /></a>
+                                    <a href=""><img src="./assets/intro-figures.png" /></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -180,17 +182,17 @@ if (isset($_POST['name']))
                         <p class=""><b>Supporting each other let our business grow faster.</b> </p>
                         <div class="lg:flex" style="margin: 10vh 0;">
                             <div >
-                                <img src="./pos.png" width="200" style="margin: 0 auto;">
+                                <img src="./assets/ihm.png" width="200" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">Invite a friend</h4>
                                 <p >Based on your feedback with our solution, you can refer a friend and get rawards.</p>
                             </div>
                             <div >
-                                <img src="./crm.png" width="200" style="margin: 0 auto;">
+                                <img src="./assets/ihm.png" width="200" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">Redeem your points</h4>
                                 <p >Earn points and enjoy a <b>free subscription</b> for up to <b>1 year</b>, or access premium features .</p>
                             </div>
                             <div >
-                                <img src="./ihm.png" width="200" style="margin: 0 auto;">
+                                <img src="./assets/ihm.png" width="200" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">Give us feedback</h4>
                                 <p >We appreciate your feedback that will help us to take your experience to the next level</p>
                             </div>
@@ -223,15 +225,15 @@ if (isset($_POST['name']))
 
                         <div class="lg:flex footer-contact-info" style=" text-align: center; ">
                             <div class="pb-4">
-                                <img src="../worldwide.png" width="30"  style="margin:0 auto;">
+                                <img src="./assets/worldwide.png" width="30"  style="margin:0 auto;">
                                 <p class="mt-2 text-white">info@medianssolutions.com</p>
                             </div>
                             <div class="pb-4">
-                                <img src="../call.png" width="30"  style="margin:0 auto;">
+                                <img src="./assets/call.png" width="30"  style="margin:0 auto;">
                                 <p class="mt-2 text-white">(+2) 7357620</p>
                             </div>
                             <div class="pb-4">
-                                <img src="../address.png" width="30" style="margin:0 auto;">
+                                <img src="./assets/address.png" width="30" style="margin:0 auto;">
                                 <p class="mt-2 text-white">140 - 26 July, Zamalek, Cairo</p>
                             </div>
                         </div>
@@ -304,7 +306,10 @@ if (isset($_POST['name']))
                             </div>
                         </div>
                     </div>
+                  <p>
+                      
                   <span style="left: 0; right: 0; bottom: 5%; position: absolute; color: #ccc; z-index: 9; " class="mx-auto absolute text-gray-600">All rights reserved @Medians. 2023</span>
+                  </p>  
 
                   <div class="stars-outer ">
                       <div id="stars-sky" />
@@ -353,9 +358,9 @@ if (isset($_POST['name']))
 
     <script src="./assets/main.js"></script>
     <script src="./assets/jquery.touchSwipe.min.js"></script>
-    <script src="./assets/ideas/1/js.js"></script>
+    <script src="./assets/js.js"></script>
 
-    <link href="./assets/ideas/1/css.css" rel="stylesheet">
+    <link href="./assets/css.css" rel="stylesheet">
 
 </body>
 
