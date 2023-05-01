@@ -496,7 +496,6 @@ if (isset($_POST['name']))
 
 
 
-    <script type="text/javascript" src="./assets/wp-embed.min.js"></script>
     <script src="./assets/jquery-1.11.3.min.js"></script>
     <script src="./assets/preloadjs-0.6.1.min.js"></script>
     <!-- <script src="./assets/soundjs-0.6.1.min.js"></script> -->
@@ -504,7 +503,6 @@ if (isset($_POST['name']))
     <script src="./assets/TweenMax.min.js"></script>
     <script src="./assets/ScrollToPlugin.min.js"></script>
     <script src="./assets/jquery.lettering.min.js"></script>
-    <script src="./assets/countUp.js"></script>
     <script src="./assets/vars.js"></script>
     <script src="./assets/smooth-scrolling.js"></script>
     <script src="./assets/owl/dist/owl.carousel.min.js"></script>
@@ -513,7 +511,6 @@ if (isset($_POST['name']))
     <script src="./assets/jquery.touchSwipe.min.js"></script>
     <script src="./assets/js.js"></script>
 
-    <link href="./assets/css.css" rel="stylesheet">
 
 </body>
 
