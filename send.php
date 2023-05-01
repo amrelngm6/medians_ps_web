@@ -8,5 +8,6 @@ if (isset($_POST['name']))
     } catch (Exception $e) {
         echo $e->getMessage();
     }
+    header("Location: /")
 }
 ?>
