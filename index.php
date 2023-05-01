@@ -63,8 +63,9 @@ if (isset($_POST['name']))
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="page-content">Home</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-intro">What</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-what-block">Show</a></li>
-                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-loyal">Loyalty</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-features">Discover</a></li>
+                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-pricing">Pricing</a></li>
+                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-loyal">Loyalty</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-who">Who</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="contact-form">Start<span class="wiggle"></span></a></li>
             </ul>
@@ -153,7 +154,7 @@ if (isset($_POST['name']))
                         <p>Welcome to our cloud management system for cyber cafes & Playstation gaming lounges. Our platform offers a comprehensive solution for managing your gaming & cyber cafe operations, including time and access control, billing and payment processing, and reporting and analytics.</p>
                         <div class="text-center  mx-auto w-full ">
                             <a href="javascript:;" data-target="contact-form" class="scroll-arrow my-10 mx-2 w-40 text-md py-4 px-6 border-white border" style="display:inline-block;" >Request an account</a>
-                            <a href="javascript:;" data-target="medians-what-block" class="scroll-arrow my-10 mx-2 w-40 text-md py-4 px-6 font-semibold" style="display:inline-block; color: #fff55a;">Discover more</a>
+                            <a href="javascript:;" data-target="medians-gallery" class="scroll-arrow my-10 mx-2 w-40 text-md py-4 px-6 font-semibold" style="display:inline-block; color: #fff55a;">Discover more</a>
                         </div>
                         
                     </div>
