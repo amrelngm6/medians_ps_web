@@ -102,7 +102,7 @@ if (isset($_POST['name']))
     </ul>
     <nav class="pos-f js-watch-state about" data-state="" data-active="on" data-page-scrolled="">
         <a href="./" class="logo logo-shield-wrap js-nav-logo js-watch-foreground-color"  style="width:180px">
-            <img src="./assets/whitelogo.png" style="width:100px">
+            <img alt="medians ps system"src="./assets/whitelogo.png" style="width:100px">
         </a>
         <ul class="main-nav flex-horiz" data-state="what">
             <li><a href="./" class="nav-intro wiggle-link active" data-new-state="intro">Home<span class="wiggle"></span></a></li>
@@ -146,7 +146,7 @@ if (isset($_POST['name']))
             <div class="scrolling-content-wrap" style="transform: translate3d(0px, 0px, 0px);">
                 <div class="flex-vert-center masterhead js-masterhead js-full-height" data-active="on" style="height: 600px;">
                     <p class="letter-split yellow-text mb-0" aria-label="STOP. thinking"><span class="char1" aria-hidden="true">St</span><span class="char2" aria-hidden="true">art</span><span class="char3" aria-hidden="true"> N</span><span class="char4" aria-hidden="true">o</span><span class="char5" aria-hidden="true">w.</span></p>
-                    <h2>MEDIANS PS Cloud management system</h2>
+                    <h1>MEDIANS PS Cloud management system</h1>
                 </div>
                 <section class="js-monitor-scroll" data-active="off" id="medians-intro">
                     <div class="content">
@@ -172,12 +172,12 @@ if (isset($_POST['name']))
 
                                 <div data-target="video-1" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;" class="text-lg">How to create new booking</h3>
-                                    <img style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
+                                    <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
                                     <video loop class="rounded-2xl" id="video-1" ><source src="/assets/video/new-booking.mp4" type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
                                 <div data-target="video-2" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;" class="text-lg">How to add new products to booking</h3>
-                                    <img style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
+                                    <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
                                     <video loop class="rounded-2xl" id="video-2" >
                                       <source src="/assets/video/add-product.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
@@ -185,7 +185,7 @@ if (isset($_POST['name']))
                                 </div>
                                 <div data-target="video-3" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;" class="text-lg">Complete booking and prepare for checkout</h3>
-                                    <img style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
+                                    <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
                                     <video loop class="rounded-2xl" id="video-3" >
                                       <source src="/assets/video/complete-booking.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
@@ -205,17 +205,17 @@ if (isset($_POST['name']))
                         <p class="yellow-text font-normal"><b>providing an exceptional gaming experience for your customers.</b> </p>
                         <div class="lg:flex gap gap-2 " style="margin: 10vh 0;">
                             <div class="w-full border border-gray-100 py-10 px-2 mx-2">
-                                <img src="./assets/technology.png" width="100" style="margin: 0 auto;">
+                                <img alt="modern"src="./assets/technology.png" width="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">Modern look</h4>
                                 <p >Upgrading the user interface to be both awesome and intuitive. With our easy-to-use interface, followed customers' feedback.</p>
                             </div>
                             <div class="w-full border border-gray-100 py-10 px-2 mx-2">
-                                <img src="./assets/digital-transformation.png" width="100" style="margin: 0 auto;">
+                                <img alt="real-time monitoring"src="./assets/digital-transformation.png" width="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">Monitoring</h4>
                                 <p >Get notified with the invertory & bookings alarms and get updated with the sysetm activities in real-time.</p>
                             </div>
                             <div class="w-full border border-gray-100 py-10 px-2 mx-2">
-                                <img src="./assets/automate.png" width="100" style="margin: 0 auto;">
+                                <img alt="data automation"src="./assets/automate.png" width="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">Data science</h4>
                                 <p >Unlock the power of data to enhance your marketing strategy and better understand your audience's needs</p>
                             </div>
@@ -379,15 +379,15 @@ if (isset($_POST['name']))
 
                         <div class="lg:flex footer-contact-info" style=" text-align: center; ">
                             <div class="pb-4 mx-2">
-                                <img src="./assets/worldwide.png" width="30"  style="margin:0 auto;">
+                                <img alt="email"src="./assets/worldwide.png" width="30"  style="margin:0 auto;">
                                 <p class="mt-2 text-white">info@medianssolutions.com</p>
                             </div>
                             <div class="pb-4 mx-2">
-                                <img src="./assets/call.png" width="30"  style="margin:0 auto;">
+                                <img alt="phone"src="./assets/call.png" width="30"  style="margin:0 auto;">
                                 <p class="mt-2 text-white">(+2) 7357620</p>
                             </div>
                             <div class="pb-4 mx-2">
-                                <img src="./assets/address.png" width="30" style="margin:0 auto;">
+                                <img alt="address"src="./assets/address.png" width="30" style="margin:0 auto;">
                                 <p class="mt-2 text-white">140 - 26 July, Zamalek, Cairo</p>
                             </div>
                         </div>
