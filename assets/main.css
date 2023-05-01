@@ -380,8 +380,7 @@ a.arrow-link {
       -moz-transform: translateX(-50px);
       -ms-transform: translateX(-50px);
       -o-transform: translateX(-50px);
-      transform: translateX(-50px);
-      background: url("../img/ui/arrow.svg") no-repeat center center/100% 100%; }
+      transform: translateX(-50px);}
   a.arrow-link:hover {
     -webkit-transform: translateX(-25px);
     -moz-transform: translateX(-25px);
@@ -469,12 +468,9 @@ a.arrow-link {
     right: 0;
     width: 6px;
     height: 6px;
-    margin: -3px 0 0 -3px;
-    background: url("../img/ui/arrow-head-white.svg") no-repeat center center/100%; }
+    margin: -3px 0 0 -3px;}
   .arrow-head[data-color="black"] span::before {
     background-color: #212121; }
-  .arrow-head[data-color="black"] span::after {
-    background: url("../img/ui/arrow-head-black.svg") no-repeat center center/100%; }
 
 .box-arrow-link {
   display: inline-block;
@@ -734,16 +730,6 @@ a.arrow-link {
     -webkit-transition: 0.01s 0.3s;
     -moz-transition: 0.01s 0.3s;
     transition: 0.01s 0.3s; }
-  .icon.icon-mail::after {
-    background: url("../img/ui/icon-mail.svg") no-repeat center center/100%; }
-  .icon.icon-twitter::after {
-    background: url("../img/ui/icon-twitter.svg") no-repeat center center/100%; }
-  .icon.icon-behance::after {
-    background: url("../img/ui/icon-behance.svg") no-repeat center center/100%; }
-  .icon.icon-dribbble::after {
-    background: url("../img/ui/icon-dribbble.svg") no-repeat center center/100%; }
-  .icon.icon-linkedin::after {
-    background: url("../img/ui/icon-linkedin.svg") no-repeat center center/100%; }
   .icon:hover::before {
     opacity: 1;
     -webkit-transition: 0.01s 0s;
@@ -962,7 +948,6 @@ a.arrow-link {
     -webkit-transition: 0.45s cubic-bezier(0.52, 0.01, 0.16, 1);
     -moz-transition: 0.45s cubic-bezier(0.52, 0.01, 0.16, 1);
     transition: 0.45s cubic-bezier(0.52, 0.01, 0.16, 1);
-    background: url("../img/ui/wiggle-white.svg") repeat-x center center/7px 3px;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden; }
 
@@ -970,7 +955,7 @@ a.arrow-link {
   width: 660px;
   height: 330px;
   margin: -165px 0 0 -330px;
-  background: url("../img/ui/toyfight-logo.svg") no-repeat center center/100%; }
+}
 
 .scroll-arrow-wrap {
   width: 50px;
@@ -1468,158 +1453,100 @@ a .scroll-arrow {
     .logo-animation .logo-piece.t-1 {
       top: 45.3%;
       left: 2.1%; }
-      .logo-animation .logo-piece.t-1 div::before {
-        background: url("../img/ui/logo/toyfight-word/t/t-h-1.svg") no-repeat center center; }
     .logo-animation .logo-piece.t-2 {
       top: 65.9%;
       left: -5.1%; }
-      .logo-animation .logo-piece.t-2 div::before {
-        background: url("../img/ui/logo/toyfight-word/t/t-v-1.svg") no-repeat center center; }
     .logo-animation .logo-piece.t-3 {
       top: 73%;
       left: 1.2%; }
-      .logo-animation .logo-piece.t-3 div::before {
-        background: url("../img/ui/logo/toyfight-word/t/t-d-1.svg") no-repeat center center; }
     .logo-animation .logo-piece.o-1 {
       width: 40%;
       top: 60.5%;
       left: -4.1%; }
-      .logo-animation .logo-piece.o-1 div::before {
-        background: url("../img/ui/logo/toyfight-word/o/o-v-1.svg") no-repeat center center; }
     .logo-animation .logo-piece.o-2 {
       top: 56%;
       left: 13.8%; }
-      .logo-animation .logo-piece.o-2 div::before {
-        background: url("../img/ui/logo/toyfight-word/o/o-h-1.svg") no-repeat center center; }
     .logo-animation .logo-piece.o-3 {
       top: 59.5%;
       left: 8.8%; }
-      .logo-animation .logo-piece.o-3 div::before {
-        background: url("../img/ui/logo/toyfight-word/o/o-v-2.svg") no-repeat center center; }
     .logo-animation .logo-piece.o-4 {
       top: 70.5%;
       left: 9.5%; }
-      .logo-animation .logo-piece.o-4 div::before {
-        background: url("../img/ui/logo/toyfight-word/o/o-d-1.svg") no-repeat center center; }
     .logo-animation .logo-piece.y-1 {
       top: 52.5%;
       left: 15.1%; }
-      .logo-animation .logo-piece.y-1 div::before {
-        background: url("../img/ui/logo/toyfight-word/y/y-v-1.svg") no-repeat center center; }
     .logo-animation .logo-piece.y-2 {
       top: 59.9%;
       left: 20.8%; }
-      .logo-animation .logo-piece.y-2 div::before {
-        background: url("../img/ui/logo/toyfight-word/y/y-d-1.svg") no-repeat center center; }
     .logo-animation .logo-piece.y-3 {
       top: 68.7%;
       left: 17.2%; }
-      .logo-animation .logo-piece.y-3 div::before {
-        background: url("../img/ui/logo/toyfight-word/y/y-v-2.svg") no-repeat center center; }
     .logo-animation .logo-piece.y-4 {
       top: 76.4%;
       left: 22.7%; }
-      .logo-animation .logo-piece.y-4 div::before {
-        background: url("../img/ui/logo/toyfight-word/y/y-d-2.svg") no-repeat center center; }
     .logo-animation .logo-piece.f-1 {
       top: 20.9%;
       left: 40.4%; }
-      .logo-animation .logo-piece.f-1 div::before {
-        background: url("../img/ui/logo/toyfight-word/f/f-h-1.svg") no-repeat center center; }
     .logo-animation .logo-piece.f-2 {
       top: 41.1%;
       left: 32.8%; }
-      .logo-animation .logo-piece.f-2 div::before {
-        background: url("../img/ui/logo/toyfight-word/f/f-v-1.svg") no-repeat center center; }
     .logo-animation .logo-piece.f-3 {
       top: 39.7%;
       left: 39.8%; }
-      .logo-animation .logo-piece.f-3 div::before {
-        background: url("../img/ui/logo/toyfight-word/f/f-h-2.svg") no-repeat center center; }
     .logo-animation .logo-piece.i-1 {
       top: 35%;
       left: 42.4%; }
-      .logo-animation .logo-piece.i-1 div::before {
-        background: url("../img/ui/logo/toyfight-word/i/i-v-1.svg") no-repeat center center; }
     .logo-animation .logo-piece.i-2 {
       top: 43.1%;
       left: 47.8%; }
-      .logo-animation .logo-piece.i-2 div::before {
-        background: url("../img/ui/logo/toyfight-word/i/i-d-1.svg") no-repeat center center; }
     .logo-animation .logo-piece.g-1 {
       top: 29.5%;
       left: 50.4%; }
-      .logo-animation .logo-piece.g-1 div::before {
-        background: url("../img/ui/logo/toyfight-word/g/g-v-1.svg") no-repeat center center; }
     .logo-animation .logo-piece.g-2 {
       top: 38.6%;
       left: 55.4%; }
-      .logo-animation .logo-piece.g-2 div::before {
-        background: url("../img/ui/logo/toyfight-word/g/g-d-1.svg") no-repeat center center; }
     .logo-animation .logo-piece.g-3 {
       top: 23.9%;
       left: 58.2%;
       width: 32%;
       height: 7%; }
-      .logo-animation .logo-piece.g-3 div::before {
-        background: url("../img/ui/logo/toyfight-word/g/g-h-1.svg") no-repeat center center; }
     .logo-animation .logo-piece.g-4 {
       width: 38%;
       top: 49.1%;
       left: 46%; }
-      .logo-animation .logo-piece.g-4 div::before {
-        background: url("../img/ui/logo/toyfight-word/g/g-v-2.svg") no-repeat center center; }
     .logo-animation .logo-piece.g-5 {
       top: 64.5%;
       left: 53.2%;
       width: 25.4%;
       height: 6.7%; }
-      .logo-animation .logo-piece.g-5 div::before {
-        background: url("../img/ui/logo/toyfight-word/g/g-h-2.svg") no-repeat center center; }
     .logo-animation .logo-piece.g-6 {
       top: 38.5%;
       left: 51%;
       width: 34%;
       height: 13%; }
-      .logo-animation .logo-piece.g-6 div::before {
-        background: url("../img/ui/logo/toyfight-word/g/g-d-2.svg") no-repeat center center; }
     .logo-animation .logo-piece.h-1 {
       top: 20.7%;
       left: 64.6%; }
-      .logo-animation .logo-piece.h-1 div::before {
-        background: url("../img/ui/logo/toyfight-word/h/h-v-1.svg") no-repeat center center; }
     .logo-animation .logo-piece.h-2 {
       top: 20.2%;
       left: 71.7%; }
-      .logo-animation .logo-piece.h-2 div::before {
-        background: url("../img/ui/logo/toyfight-word/h/h-d-1.svg") no-repeat center center; }
     .logo-animation .logo-piece.h-3 {
       width: 35%;
       height: 8.3%;
       top: 15.7%;
       left: 66.6%; }
-      .logo-animation .logo-piece.h-3 div::before {
-        background: url("../img/ui/logo/toyfight-word/h/h-v-2.svg") no-repeat center center; }
     .logo-animation .logo-piece.h-4 {
       top: 25.4%;
       left: 76.6%; }
-      .logo-animation .logo-piece.h-4 div::before {
-        background: url("../img/ui/logo/toyfight-word/h/h-d-2.svg") no-repeat center center; }
     .logo-animation .logo-piece.t2-1 {
       top: 12.6%;
       left: 78.1%; }
-      .logo-animation .logo-piece.t2-1 div::before {
-        background: url("../img/ui/logo/toyfight-word/t2/t2-v-1.svg") no-repeat center center; }
     .logo-animation .logo-piece.t2-2 {
       top: 10.6%;
       left: 85.6%; }
-      .logo-animation .logo-piece.t2-2 div::before {
-        background: url("../img/ui/logo/toyfight-word/t2/t2-h-1.svg") no-repeat center center; }
     .logo-animation .logo-piece.t2-3 {
       top: 20.4%;
       left: 83.8%; }
-      .logo-animation .logo-piece.t2-3 div::before {
-        background: url("../img/ui/logo/toyfight-word/t2/t2-d-1.svg") no-repeat center center; }
     .logo-animation .logo-piece.logo-piece-dash {
       top: 77.8%;
       left: 29.8%;
@@ -1630,15 +1557,11 @@ a .scroll-arrow {
       -ms-transform: rotate(-17deg);
       -o-transform: rotate(-17deg);
       transform: rotate(-17deg); }
-      .logo-animation .logo-piece.logo-piece-dash div::before {
-        background: url("../img/ui/logo/toyfight-word/slash.svg") no-repeat center center; }
     .logo-animation .logo-piece.logo-piece-rights {
       top: 32%;
       left: 92.4%;
       width: 5%;
       height: 5%; }
-      .logo-animation .logo-piece.logo-piece-rights div::before {
-        background: url("../img/ui/logo/toyfight-word/rights.svg") no-repeat center center; }
 
 .preloader-shield {
   z-index: 500;
@@ -1655,12 +1578,12 @@ nav, .sound-on-off {
   -webkit-transition: 0.65s cubic-bezier(0.62, 0.02, 0.34, 1) 0.15s;
   -moz-transition: 0.65s cubic-bezier(0.62, 0.02, 0.34, 1) 0.15s;
   transition: 0.65s cubic-bezier(0.62, 0.02, 0.34, 1) 0.15s; }
-  .page-content .masterhead h1 {
+  .page-content .masterhead p {
     font-size: 22vw;
     margin-bottom: 0;
     pointer-events: none; }
     @media screen and (min-width: 1400px) {
-      .page-content .masterhead h1 {
+      .page-content .masterhead p {
         font-size: 21em; } }
   .page-content .masterhead[data-active="off"] {
     opacity: 0;
@@ -1685,16 +1608,6 @@ body[data-state="intro"] .underline-link::after {
   background-color: #ffd42d; }
 body[data-state="intro"] .underline-link:hover span {
   color: #ffd42d; }
-body[data-state="intro"] .icon-mail::before {
-  background: url("../img/ui/colors/intro/icon-mail.svg") no-repeat center center/100%; }
-body[data-state="intro"] .icon-twitter::before {
-  background: url("../img/ui/colors/intro/icon-twitter.svg") no-repeat center center/100%; }
-body[data-state="intro"] .icon-behance::before {
-  background: url("../img/ui/colors/intro/icon-behance.svg") no-repeat center center/100%; }
-body[data-state="intro"] .icon-dribbble::before {
-  background: url("../img/ui/colors/intro/icon-dribbble.svg") no-repeat center center/100%; }
-body[data-state="intro"] .icon-linkedin::before {
-  background: url("../img/ui/colors/intro/icon-linkedin.svg") no-repeat center center/100%; }
 
 .who-content h1 {
   color: #96ffca; }
@@ -1707,16 +1620,6 @@ body[data-state="who"] .underline-link::after {
   background-color: #1544c0; }
 body[data-state="who"] .underline-link:hover span {
   color: #1544c0; }
-body[data-state="who"] .icon-mail::before {
-  background: url("../img/ui/colors/who/icon-mail.svg") no-repeat center center/100%; }
-body[data-state="who"] .icon-twitter::before {
-  background: url("../img/ui/colors/who/icon-twitter.svg") no-repeat center center/100%; }
-body[data-state="who"] .icon-behance::before {
-  background: url("../img/ui/colors/who/icon-behance.svg") no-repeat center center/100%; }
-body[data-state="who"] .icon-dribbble::before {
-  background: url("../img/ui/colors/who/icon-dribbble.svg") no-repeat center center/100%; }
-body[data-state="who"] .icon-linkedin::before {
-  background: url("../img/ui/colors/who/icon-linkedin.svg") no-repeat center center/100%; }
 
 .what-content h1 {
   color: #fff55a; }

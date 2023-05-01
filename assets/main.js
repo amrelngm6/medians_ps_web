@@ -659,11 +659,6 @@ function loadSiteHeader() {
 	preload = new createjs.LoadQueue();
 	preload.on("complete", siteLoaded); // ON ALL LOADED, RUN FUNCTION siteLoaded
 	preload.on("progress", loadProgress); // ON ALL LOADED, RUN FUNCTION siteLoaded
-	preload.loadFile("/wp-content/themes/toybox/img/ui/logo/tf-white.svg");
-	preload.loadFile("/wp-content/themes/toybox/img/figures/tinified/who-figures.png");
-	preload.loadFile("/wp-content/themes/toybox/img/figures/tinified/what-figures.png");
-	preload.loadFile("/wp-content/themes/toybox/img/figures/tinified/work-figures.png");
-	preload.loadFile("/wp-content/themes/toybox/img/figures/tinified/footer-rock.png");
 	preloaderLoop();
 }
 

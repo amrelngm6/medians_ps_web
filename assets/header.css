@@ -64,12 +64,6 @@ nav {
       will-change: transform;
       backface-visibility: hidden;
       -webkit-backface-visibility: hidden; }
-  nav[data-state="who"] .wiggle::before {
-    background: url("../img/ui/wiggle-who.svg") repeat-x center center/7px 3px; }
-  nav.about .wiggle::before {
-    background: url("../img/ui/wiggle-what.svg") repeat-x center center/7px 3px; }
-  nav[data-state="work"] .wiggle::before {
-    background: url("../img/ui/wiggle-work.svg") repeat-x center center/7px 3px; }
   nav .back-to-top-arrow-wrap {
     position: absolute;
     left: auto;
@@ -780,20 +774,12 @@ body[data-state="project"] .sound-on-off, body[data-state="project"] .scroll-arr
   opacity: 0; }
 .page-bg li:nth-child(1) {
   background-color: #ffd42d; }
-  .page-bg li:nth-child(1) .horizon-bg {
-    background: url("../img/bg/horizon-intro.jpg") no-repeat center center/cover; }
 .page-bg li:nth-child(2) {
   background-color: #1544c0; }
-  .page-bg li:nth-child(2) .horizon-bg {
-    background: url("../img/bg/horizon-who.jpg") no-repeat center center/cover; }
 .page-bg li:nth-child(3) {
   background-color: #7138d2; }
-  .page-bg li:nth-child(3) .horizon-bg {
-    background: url("../img/bg/horizon-what.jpg") no-repeat center center/cover; }
 .page-bg li:nth-child(4) {
   background-color: #5210ac; }
-  .page-bg li:nth-child(4) .horizon-bg {
-    background: url("../img/bg/horizon-work.jpg") no-repeat center center/cover; }
 .page-bg li:nth-child(5) {
   background-color: #fff; }
 .page-bg[data-state="intro"] li:nth-child(1) {
@@ -1046,8 +1032,6 @@ header[data-state="project"] .intro-figures, header[data-state="project"] .who-f
 .what-figures .figures-leigh {
   background-image: url("./what-figures-leigh.png")}
 
-.work-figures .figures {
-  background-image: url("../img/figures/mob/tinified/work-figures.png")}
 
 @media (min-width: 767px) {
   .intro-figures .figures {
@@ -1061,9 +1045,6 @@ header[data-state="project"] .intro-figures, header[data-state="project"] .who-f
   .what-figures .figures-leigh {
     background-image: url("./what-figures-leigh.png")}
 
-  .work-figures .figures {
-    background-image: url("./work-figures.png")}
-}
 
 .contact-modal {
   position: fixed;
