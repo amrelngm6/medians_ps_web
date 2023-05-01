@@ -1021,29 +1021,6 @@ header[data-state="project"] .intro-figures, header[data-state="project"] .who-f
       margin: -50.89286vw 0 0 -75vw; } }
 
 
-.intro-figures .figures {
-  background-image: url("./intro-figures.png")}
-
-.who-figures .figures {
-  background-image: url("./who-figures.png")}
-
-.what-figures .figures-jonny {
-  background-image: url("./what-figures-jonny.png")}
-.what-figures .figures-leigh {
-  background-image: url("./what-figures-leigh.png")}
-
-
-@media (min-width: 767px) {
-  .intro-figures .figures {
-    background-image: url("./intro-figures.png")}
-
-  .who-figures .figures {
-    background-image: url("./who-figures.png")}
-
-  .what-figures .figures-jonny {
-    background-image: url("./what-figures-jonny.png")}
-  .what-figures .figures-leigh {
-    background-image: url("./what-figures-leigh.png")}
 
 
 .contact-modal {
