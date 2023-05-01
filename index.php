@@ -145,7 +145,7 @@ if (isset($_POST['name']))
         <div class="scrolling-content js-scrolling-content full-size pos-a-t-l what-content" data-state="what">
             <div class="scrolling-content-wrap" style="transform: translate3d(0px, 0px, 0px);">
                 <div class="flex-vert-center masterhead js-masterhead js-full-height" data-active="on" style="height: 600px;">
-                    <h1 class="letter-split intro" aria-label="STOP. thinking"><span class="char1" aria-hidden="true">St</span><span class="char2" aria-hidden="true">art</span><span class="char3" aria-hidden="true"> N</span><span class="char4" aria-hidden="true">o</span><span class="char5" aria-hidden="true">w.</span></h1>
+                    <p class="letter-split yellow-text mb-0" aria-label="STOP. thinking"><span class="char1" aria-hidden="true">St</span><span class="char2" aria-hidden="true">art</span><span class="char3" aria-hidden="true"> N</span><span class="char4" aria-hidden="true">o</span><span class="char5" aria-hidden="true">w.</span></p>
                     <h2>MEDIANS PS Cloud management system</h2>
                 </div>
                 <section class="js-monitor-scroll" data-active="off" id="medians-intro">
