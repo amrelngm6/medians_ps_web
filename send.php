@@ -1,6 +1,4 @@
 <?php 
-if (isset($_POST['name']))
-{
     try {
 
         mail('info@medianssolutions.com', 'New message', json_encode($_POST));
@@ -8,6 +6,5 @@ if (isset($_POST['name']))
     } catch (Exception $e) {
         echo $e->getMessage();
     }
-    header("Location: /")
-}
+    header("Location: /");
 ?>
