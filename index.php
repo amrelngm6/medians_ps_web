@@ -297,7 +297,7 @@
                                     </div>
                                     <div class="mb-10 text-sm font-light leading-loose text-gray-700 dark:text-gray-50">
                                         <div class="font-semibold pt-2">
-                                            Trial version <small>( 15 days )</small>
+                                            Trial version <small>( 30 days )</small>
                                         </div>
                                         <div class="font-normal pt-2">
                                             All features
@@ -310,7 +310,7 @@
                                         <span>0/EGP </span>
                                     </div>
                                     <div class="text-sm text-gray-500 dark:text-gray-200"> / month </div>
-                                    <small>15 days only</small>
+                                    <small>30 days only</small>
                                     <div class="py-4"></div>
                                     <div class="px-4 mt-8">
                                         <button type="button" data-target="contact-form" class="scroll-arrow py-2 px-4 border rounded py-4 px-6 bg-purple w-full text-purple transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
@@ -373,7 +373,7 @@
 
                         <div class="lg:flex footer-contact-info" style=" text-align: center; ">
                             <div class="pb-4 mx-2">
-                                    alt="email"src="./assets/worldwide.png" width="30"  style="margin:0 auto;">
+                                <img alt="email"src="./assets/worldwide.png" width="30"  style="margin:0 auto;">
                                 <p class="mt-2 text-white">info@medianssolutions.com</p>
                             </div>
                             <div class="pb-4 mx-2">
