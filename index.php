@@ -63,8 +63,8 @@ if (isset($_POST['name']))
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="page-content">Home</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-intro">What</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-what-block">Show</a></li>
-                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-features">Discover</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-loyal">Loyalty</a></li>
+                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-features">Discover</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-who">Who</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="contact-form">Start<span class="wiggle"></span></a></li>
             </ul>
@@ -107,8 +107,9 @@ if (isset($_POST['name']))
             <li><a href="./" class="nav-intro wiggle-link active" data-new-state="intro">Home<span class="wiggle"></span></a></li>
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-intro">What</a></li>
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-gallery-block">Show</a></li>
-            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-loyal">Loyalty</a></li>
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-features">Discover</a></li>
+            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-pricing">Prices</a></li>
+            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-loyal">Loyalty</a></li>
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-who">Who</a></li>
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="contact-form">Start<span class="wiggle"></span></a></li>
         </ul>
@@ -202,20 +203,20 @@ if (isset($_POST['name']))
                         <p>From real-time monitoring to streamlined inventory management, our system is designed to simplify your operations. </p>
                         <p class="yellow-text font-normal"><b>providing an exceptional gaming experience for your customers.</b> </p>
                         <div class="lg:flex gap gap-2 " style="margin: 10vh 0;">
-                            <div class="w-full border border-gray-100 py-10 px-6 mx-2">
+                            <div class="w-full border border-gray-100 py-10 px-2 mx-2">
                                 <img src="./assets/technology.png" width="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">Modern look</h4>
-                                <p >Our customers feedback helped us in upgrading the UI to be awesome and easy to use for controlling the Devices.</p>
+                                <p >Upgrading the user interface to be both awesome and intuitive. With our easy-to-use interface, followed customers' feedback.</p>
                             </div>
-                            <div class="w-full border border-gray-100 py-10 px-6 mx-2">
+                            <div class="w-full border border-gray-100 py-10 px-2 mx-2">
                                 <img src="./assets/digital-transformation.png" width="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">Monitoring</h4>
-                                <p >Get notified with the invertory / bookings alarms.</p>
+                                <p >Get notified with the invertory & bookings alarms and get updated with the sysetm activities in real-time.</p>
                             </div>
-                            <div class="w-full border border-gray-100 py-10 px-6 mx-2">
+                            <div class="w-full border border-gray-100 py-10 px-2 mx-2">
                                 <img src="./assets/automate.png" width="100" style="margin: 0 auto;">
-                                <h4 class="text-lg font-semibold yellow-text">Give us feedback</h4>
-                                <p >We appreciate your feedback that will help us to take your experience to the next level</p>
+                                <h4 class="text-lg font-semibold yellow-text">Data science</h4>
+                                <p >Unlock the power of data to enhance your marketing strategy and better understand your audience's needs</p>
                             </div>
                         </div>
                     </div>
@@ -223,16 +224,105 @@ if (isset($_POST['name']))
                 </section>
                 <section class="js-monitor-scroll white-bg" data-active="off" >
                     <div class="content awards" id="medians-pricing">
-                        <h3>Pricing</h3>
-                        <p  class="mb-10">We believe that every business has three key components: the market, the client, and the provider. Our goal is to help you connect these components and achieve sustainable growth using <b>MEDIANS</b> technologies and strategies</p>
-                        <div class="mt-10" style="display: flex; width: 100%">
-                            <div style="width: 100%;">
-                                <h4 class="text-lg my-2">Vision</h4>
-                                <p>Our vision is to empower businesses with the tools, technologies, and strategies they need to thrive in a rapidly-changing world. </p>
+                        <div class="w-full lg:flex">
+                            <div class="w-full">
+                                <h3>Pricing</h3>
+                                <p  class="mb-10">Don't miss out on the benefits of our cloud-based management software. Start your free trial today and discover how it can transform the way you run your business.</p>
                             </div>
-                            <div style="width: 100%;">
-                                <h4 class="text-lg my-2">Mission</h4>
-                                <p>We believe that by providing innovative solutions and exceptional service, we can help our clients make a positive impact. </p>
+                        </div>
+
+                        <div class="mt-10 w-full lg:flex">
+                                                        
+                            <div class="rounded-xl w-64 mx-auto text-center bg-white border-t-4 border-gray-500 rounded shadow text-gray-600 py-4 ">
+                                <div class="overflow-hidden">
+                                    <div class="py-4 text-2xl font-medium text-gray-800 dark:text-white">
+                                        Basic
+                                    </div>
+                                    <div class="mb-10 text-sm font-light leading-loose text-gray-700 dark:text-gray-50">
+                                        <div class="font-semibold pt-2">
+                                            Single branch
+                                        </div>
+                                        <div class="font-normal pt-2">
+                                            All features
+                                        </div>
+                                        <div class="font-normal pt-2">
+                                            Free support
+                                        </div>
+                                    </div>
+                                    <div class="mb-2 text-2xl font-bold text-gray-500 dark:text-gray-200">
+                                        <span>180/EGP </span>
+                                    </div>
+                                    <div class="text-sm text-gray-500 dark:text-gray-200"> / month </div>
+                                    <small>2000 Annually</small>
+                                    <div class="py-4"></div>
+                                    <div class="px-4 mt-8">
+                                        <button type="button" data-target="contact-form" class="scroll-arrow py-2 px-4  bg-indigo-600 hover:bg-indigo-700 border rounded py-4 px-6 text-purple w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                                            Start
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+               
+                            <div class="rounded-xl w-64 mx-auto text-center bg-white border-t-4 border-gray-500 rounded shadow text-gray-600 py-4 ">
+                                <div class="overflow-hidden">
+                                    <div class="py-4 text-2xl font-medium text-gray-800 dark:text-white">
+                                        Business
+                                    </div>
+                                    <div class="mb-10 text-sm font-light leading-loose text-gray-700 dark:text-gray-50">
+                                        <div class="font-semibold pt-2">
+                                            Multi branches
+                                        </div>
+                                        <div class="font-normal pt-2">
+                                            All features
+                                        </div>
+                                        <div class="font-normal pt-2">
+                                            Free support
+                                        </div>
+                                    </div>
+                                    <div class="mb-2 text-2xl font-bold text-gray-500 dark:text-gray-200">
+                                        <span>480/EGP </span>
+                                    </div>
+                                    <div class="text-sm text-gray-500 dark:text-gray-200"> / month </div>
+                                    <small>5500 Annually</small>
+                                    <div class="py-4"></div>
+                                    <div class="px-4 mt-8">
+                                        <button type="button" style="background:#7460ee" data-target="contact-form" class="scroll-arrow py-2 px-4  bg-indigo-600 hover:bg-indigo-700 border rounded py-4 px-6 bg-purple w-full text-white transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                                            Start
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+               
+                            <div class="rounded-xl w-64 mx-auto text-center bg-white border-t-4 border-gray-500 rounded shadow text-gray-600 py-4 ">
+                                <div class="overflow-hidden">
+                                    <div class="py-4 text-2xl font-medium text-gray-800 dark:text-white">
+                                        Trial
+                                    </div>
+                                    <div class="mb-10 text-sm font-light leading-loose text-gray-700 dark:text-gray-50">
+                                        <div class="font-semibold pt-2">
+                                            Trial version <small>( 15 days )</small>
+                                        </div>
+                                        <div class="font-normal pt-2">
+                                            All features
+                                        </div>
+                                        <div class="font-normal pt-2">
+                                            Free support
+                                        </div>
+                                    </div>
+                                    <div class="mb-2 text-2xl font-bold text-gray-500 dark:text-gray-200">
+                                        <span>0/EGP </span>
+                                    </div>
+                                    <div class="text-sm text-gray-500 dark:text-gray-200"> / month </div>
+                                    <small>15 days only</small>
+                                    <div class="py-4"></div>
+                                    <div class="px-4 mt-8">
+                                        <button type="button" data-target="contact-form" class="scroll-arrow py-2 px-4 border rounded py-4 px-6 bg-purple w-full text-purple transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                                            Get in contact
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
@@ -248,17 +338,14 @@ if (isset($_POST['name']))
                         <p class=""><b>Supporting each other let our business grow faster.</b> </p>
                         <div class="lg:flex" style="margin: 10vh 0;">
                             <div >
-                                <img src="./assets/ihm.png" width="200" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">Invite a friend</h4>
                                 <p >Based on your feedback with our solution, you can refer a friend and get rawards.</p>
                             </div>
                             <div >
-                                <img src="./assets/ihm.png" width="200" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">Redeem your points</h4>
                                 <p >Earn points and enjoy a <b>free subscription</b> for up to <b>1 year</b>, or access premium features .</p>
                             </div>
                             <div >
-                                <img src="./assets/ihm.png" width="200" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">Give us feedback</h4>
                                 <p >We appreciate your feedback that will help us to take your experience to the next level</p>
                             </div>
@@ -290,15 +377,15 @@ if (isset($_POST['name']))
                     <div class=" px-10 sm:px-6 lg:px-20 md:px-20 xl:px-20 footer-contact-info-wrap"  style="max-width: 700px; float: left; position: relative;z-index: 999; width: 100%;">
 
                         <div class="lg:flex footer-contact-info" style=" text-align: center; ">
-                            <div class="pb-4">
+                            <div class="pb-4 mx-2">
                                 <img src="./assets/worldwide.png" width="30"  style="margin:0 auto;">
                                 <p class="mt-2 text-white">info@medianssolutions.com</p>
                             </div>
-                            <div class="pb-4">
+                            <div class="pb-4 mx-2">
                                 <img src="./assets/call.png" width="30"  style="margin:0 auto;">
                                 <p class="mt-2 text-white">(+2) 7357620</p>
                             </div>
-                            <div class="pb-4">
+                            <div class="pb-4 mx-2">
                                 <img src="./assets/address.png" width="30" style="margin:0 auto;">
                                 <p class="mt-2 text-white">140 - 26 July, Zamalek, Cairo</p>
                             </div>
