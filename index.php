@@ -59,7 +59,7 @@
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-what-block">Show</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-features">Discover</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-pricing">Pricing</a></li>
-                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-loyal">Loyalty</a></li>
+                <!-- <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-loyal">Loyalty</a></li> -->
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-who">Who</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="contact-form">Start<span class="wiggle"></span></a></li>
             </ul>
@@ -104,7 +104,7 @@
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-gallery-block">Show</a></li>
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-features">Discover</a></li>
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-pricing">Prices</a></li>
-            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-loyal">Loyalty</a></li>
+            <!-- <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-loyal">Loyalty</a></li> -->
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-who">Who</a></li>
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="contact-form">Start<span class="wiggle"></span></a></li>
         </ul>
