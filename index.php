@@ -31,7 +31,6 @@ if (isset($_POST['name']))
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/main.css">
     <link rel="stylesheet" href="./assets/header.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Abel&family=Fjalla+One&display=swap" >
     <link rel="stylesheet" href="./assets/fonts/stylesheet.css" >
     <link rel="stylesheet" href="./assets/tailwind2.css">
     <link rel="stylesheet" href="./assets/custom.css">
@@ -379,7 +378,7 @@ if (isset($_POST['name']))
 
                         <div class="lg:flex footer-contact-info" style=" text-align: center; ">
                             <div class="pb-4 mx-2">
-                                <img alt="email"src="./assets/worldwide.png" width="30"  style="margin:0 auto;">
+                                    alt="email"src="./assets/worldwide.png" width="30"  style="margin:0 auto;">
                                 <p class="mt-2 text-white">info@medianssolutions.com</p>
                             </div>
                             <div class="pb-4 mx-2">
