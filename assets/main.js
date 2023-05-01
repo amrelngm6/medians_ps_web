@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	$('.owl-carousel').owlCarousel({
+	$('.owl-carousel.carousel').owlCarousel({
       loop:true,
       margin:10,
       nav:true,
@@ -17,7 +17,36 @@ $(document).ready(function() {
           }
       }
   });
+
+	$('.owl-carousel.videos').owlCarousel({
+      loop:false,
+      nav:true,
+      margin:20,
+      center: true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:1
+          },
+          1000:{
+              items:1
+          }
+      }
+  });
   
+
+
+function playVid(id) {
+		var vid = document.getElementById(id);
+    vid.play();
+}
+
+function pauseVid(id) {
+		var vid = document.getElementById(id);
+    vid.pause();
+}
 	// Load page load functions on main page load
 	// This ISN'T called again when the page state changes.
 	// loadSounds();
@@ -32,6 +61,13 @@ $(document).ready(function() {
 
 
 	
+	$('.play-video').on('click', function(e){
+
+		$(this).toggleClass('playing')
+		$(this).find('img').toggle()
+		$(this).hasClass('playing') ? playVid($(this).data('target')) : pauseVid($(this).data('target'))
+	});
+
 	stateChangeLink.on('click', function(e){
 		e.preventDefault();
 		stateChangeFunction($(this), 400);

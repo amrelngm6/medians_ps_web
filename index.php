@@ -63,6 +63,7 @@ if (isset($_POST['name']))
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="page-content">Home</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-intro">What</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-what-block">Show</a></li>
+                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-features">Discover</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-loyal">Loyalty</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-who">Who</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="contact-form">Start<span class="wiggle"></span></a></li>
@@ -105,8 +106,9 @@ if (isset($_POST['name']))
         <ul class="main-nav flex-horiz" data-state="what">
             <li><a href="./" class="nav-intro wiggle-link active" data-new-state="intro">Home<span class="wiggle"></span></a></li>
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-intro">What</a></li>
-            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-what-block">Show</a></li>
+            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-gallery-block">Show</a></li>
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-loyal">Loyalty</a></li>
+            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-features">Discover</a></li>
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-who">Who</a></li>
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="contact-form">Start<span class="wiggle"></span></a></li>
         </ul>
@@ -141,8 +143,8 @@ if (isset($_POST['name']))
         <div class="scrolling-content js-scrolling-content full-size pos-a-t-l what-content" data-state="what">
             <div class="scrolling-content-wrap" style="transform: translate3d(0px, 0px, 0px);">
                 <div class="flex-vert-center masterhead js-masterhead js-full-height" data-active="on" style="height: 600px;">
-                    <h1 class="letter-split" aria-label="STOP. thinking"><span class="char1" aria-hidden="true">st</span><span class="char2" aria-hidden="true">art</span><span class="char3" aria-hidden="true"> N</span><span class="char4" aria-hidden="true">o</span><span class="char5" aria-hidden="true">w.</span></h1>
-                    <h2>Medians PS Cloud Management System</h2>
+                    <h1 class="letter-split intro" aria-label="STOP. thinking"><span class="char1" aria-hidden="true">St</span><span class="char2" aria-hidden="true">art</span><span class="char3" aria-hidden="true"> N</span><span class="char4" aria-hidden="true">o</span><span class="char5" aria-hidden="true">w.</span></h1>
+                    <h2>MEDIANS PS Cloud management system</h2>
                 </div>
                 <section class="js-monitor-scroll" data-active="off" id="medians-intro">
                     <div class="content">
@@ -155,24 +157,88 @@ if (isset($_POST['name']))
                         
                     </div>
                 </section>
-                <section class="js-monitor-scroll white-bg rule-below" data-active="off" id="medians-what">
-                    <div class="content" style="margin-bottom: 10vh;" id="medians-what-block">
-                        <div class="w-full flex">
-                            <div class="w-full">
-                                <h3>What We Did</h3>
-                                <p class="text-xl font-semibold">Control your business cloud wherever you are.</p>
-                                <p>We specialize in providing personalized digital solutions that are tailored to your business needs and goals using automation & AI technology, we'll help you grow your business and achieve success</p>
-                                
-                            </div>
-                            <div class="w-full">
-                                <div class="owl-carousel">
-                                    <a href=""><img class="rouded rouded-lg" src="./assets/intro-figures.png" /></a>
-                                    <a href=""><img src="./assets/intro-figures.png" /></a>
+                <section class="js-monitor-scroll white-bg rule-below" data-active="off" id="medians-gallery">
+                    <div class="lg:flex w-full" style=";" id="medians-gallery-block">
+                        <div class="w-full mb-10" style="min-width:30%">
+                            <h3>What We Did</h3>
+                            <p class="text-xl font-semibold">Effortlessly Manage Your Gaming Cafe/lounge with Our Cloud-Based System.</p>
+                            <p class="mt-4 ">Our system includes real-time monitoring, streamlined inventory management, and an easy-to-use interface that makes it simple to manage your gaming cafe.</p>
+                        </div>
+                        <div class="w-full">
+                            
+                            <div class="owl-carousel videos px-2">
+
+                                <div data-target="video-1" class="play-video cursor-pointer relative w-full">
+                                    <h3 style="margin-bottom: 10px;" class="text-lg">How to create new booking</h3>
+                                    <img style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
+                                    <video loop class="rounded-2xl" id="video-1" ><source src="/assets/video/new-booking.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+                                </div>
+                                <div data-target="video-2" class="play-video cursor-pointer relative w-full">
+                                    <h3 style="margin-bottom: 10px;" class="text-lg">How to add new products to booking</h3>
+                                    <img style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
+                                    <video loop class="rounded-2xl" id="video-2" >
+                                      <source src="/assets/video/add-product.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                <div data-target="video-3" class="play-video cursor-pointer relative w-full">
+                                    <h3 style="margin-bottom: 10px;" class="text-lg">Complete booking and prepare for checkout</h3>
+                                    <img style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
+                                    <video loop class="rounded-2xl" id="video-3" >
+                                      <source src="/assets/video/complete-booking.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                    </video>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+
+
+                <section class="js-monitor-scroll" style="padding-top: 100px" data-active="off" >
+                    <div class="ledge ledge-minus-16-deg"></div>
+                    <div class="content w-full" id="medians-features">
+                         <h3>Features</h3>
+                        <p>From real-time monitoring to streamlined inventory management, our system is designed to simplify your operations. </p>
+                        <p class="yellow-text font-normal"><b>providing an exceptional gaming experience for your customers.</b> </p>
+                        <div class="lg:flex gap gap-2 " style="margin: 10vh 0;">
+                            <div class="w-full border border-gray-100 py-10 px-6 mx-2">
+                                <img src="./assets/technology.png" width="100" style="margin: 0 auto;">
+                                <h4 class="text-lg font-semibold yellow-text">Modern look</h4>
+                                <p >Our customers feedback helped us in upgrading the UI to be awesome and easy to use for controlling the Devices.</p>
+                            </div>
+                            <div class="w-full border border-gray-100 py-10 px-6 mx-2">
+                                <img src="./assets/digital-transformation.png" width="100" style="margin: 0 auto;">
+                                <h4 class="text-lg font-semibold yellow-text">Monitoring</h4>
+                                <p >Get notified with the invertory / bookings alarms.</p>
+                            </div>
+                            <div class="w-full border border-gray-100 py-10 px-6 mx-2">
+                                <img src="./assets/automate.png" width="100" style="margin: 0 auto;">
+                                <h4 class="text-lg font-semibold yellow-text">Give us feedback</h4>
+                                <p >We appreciate your feedback that will help us to take your experience to the next level</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+                <section class="js-monitor-scroll white-bg" data-active="off" >
+                    <div class="content awards" id="medians-pricing">
+                        <h3>Pricing</h3>
+                        <p  class="mb-10">We believe that every business has three key components: the market, the client, and the provider. Our goal is to help you connect these components and achieve sustainable growth using <b>MEDIANS</b> technologies and strategies</p>
+                        <div class="mt-10" style="display: flex; width: 100%">
+                            <div style="width: 100%;">
+                                <h4 class="text-lg my-2">Vision</h4>
+                                <p>Our vision is to empower businesses with the tools, technologies, and strategies they need to thrive in a rapidly-changing world. </p>
+                            </div>
+                            <div style="width: 100%;">
+                                <h4 class="text-lg my-2">Mission</h4>
+                                <p>We believe that by providing innovative solutions and exceptional service, we can help our clients make a positive impact. </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
 
                 <section class="js-monitor-scroll" style="padding-top: 100px" data-active="off" >
                     <div class="ledge ledge-minus-16-deg"></div>
@@ -239,7 +305,7 @@ if (isset($_POST['name']))
                         </div>
                     </div>
                     <div class=" px-10 sm:px-6 lg:px-20 md:px-20 xl:px-20 footer-contact-wrap" style=" max-width: 600px; float: right; position: relative;z-index: 999; width: 100%;">
-                        <h3 class="text-white text-2xl ">Get in <span class="font-semibold">Contact</span></h3>
+                        <h3 class="text-white text-2xl ">Start Your <span class="font-semibold"> Trial</span></h3>
                         <form action="index.php" method="POST" class="my-10 my-4" id="contact-form">
                             <div class="flex">
                                 <input placeholder="Your name" required type="text" name="name" class="w-full py-2 border-b-2 border-gray-200 mr-4">
@@ -346,7 +412,7 @@ if (isset($_POST['name']))
     <script type="text/javascript" src="./assets/wp-embed.min.js"></script>
     <script src="./assets/jquery-1.11.3.min.js"></script>
     <script src="./assets/preloadjs-0.6.1.min.js"></script>
-    <script src="./assets/soundjs-0.6.1.min.js"></script>
+    <!-- <script src="./assets/soundjs-0.6.1.min.js"></script> -->
     <script src="./assets/jquery.smoothState.min.js"></script>
     <script src="./assets/TweenMax.min.js"></script>
     <script src="./assets/ScrollToPlugin.min.js"></script>
