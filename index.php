@@ -36,6 +36,15 @@
     <script src="./assets/analytics.js"></script>
     <script src="./assets/modernizr-custom.js"></script>
 
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NCF6FWPCBS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-NCF6FWPCBS');
+    </script>
 
 </head>
 
@@ -506,15 +515,6 @@
     <script src="./assets/jquery.touchSwipe.min.js"></script>
     <script src="./assets/js.js"></script>
 
-        <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NCF6FWPCBS"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-NCF6FWPCBS');
-    </script>
 </body>
 
 </html>
