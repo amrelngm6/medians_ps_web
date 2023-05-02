@@ -65,7 +65,7 @@
             <ul>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="page-content">Home</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-intro">What</a></li>
-                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-what-block">How</a></li>
+                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-gallery-block">How</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-features">Discover</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-pricing">Pricing</a></li>
                 <!-- <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-loyal">Loyalty</a></li> -->
