@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Medians® PS & cyber cafe management system</title>
     <meta name="description" content="Medians PS® is an solution that manage cyber cafes and help to automate some tasks.">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
     <meta property="og:title" content="Medians® PS & cyber cafe management system">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ps.medianssolutions.com/">
@@ -59,7 +59,7 @@
             <li></li>
             <div class="tf pos-a-t-l full-size"></div>
         </ul>
-    </div><a href="./#" class="mob-nav-btn js-mob-nav-btn" data-mob-nav-on="off"></a>
+    </div><a href="javascript:;" class="mob-nav-btn js-mob-nav-btn" data-mob-nav-on="off">.</a>
     <div class="mob-nav js-mob-nav" data-active="off">
         <div>
             <ul>
@@ -74,13 +74,6 @@
             </ul>
         </div>
         <div>
-
-            <h3>Get in Touch</h3>
-            <ul class="social-list">
-                <li><a class="icon icon-mail" href="mailto:info@medianssolutions.com"></a></li>
-                <li><a target="_blank" class="icon icon-twitter" href="https://twitter.com/mediansme"></a></li>
-                <li><a target="_blank" class="icon icon-facebook" href="https://www.facebook.com/mediansme"></a></li>
-            </ul>
         </div>
         <div class="ledge-wrap pos-a-t-l full-size">
             <div class="ledge ledge-minus-16-deg"></div>
@@ -260,7 +253,7 @@
                                     <small>2000 Annually</small>
                                     <div class="py-4"></div>
                                     <div class="px-4 mt-8">
-                                        <button type="button" data-target="contact-form" class="scroll-arrow py-2 px-4  bg-indigo-600 hover:bg-indigo-700 border rounded py-4 px-6 text-purple w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                                        <button aria-label="Start" title="Start plan" type="button" data-target="contact-form" class="scroll-arrow py-2 px-4  bg-indigo-600 hover:bg-indigo-700 border rounded py-4 px-6 text-purple w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
                                             Start
                                         </button>
                                     </div>
@@ -291,7 +284,7 @@
                                     <small>5500 Annually</small>
                                     <div class="py-4"></div>
                                     <div class="px-4 mt-8">
-                                        <button type="button" style="background:#7460ee" data-target="contact-form" class="scroll-arrow py-2 px-4  bg-indigo-600 hover:bg-indigo-700 border rounded py-4 px-6 bg-purple w-full text-white transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                                        <button  aria-label="Start" title="Start plan" type="button" style="background:#7460ee" data-target="contact-form" class="scroll-arrow py-2 px-4  bg-indigo-600 hover:bg-indigo-700 border rounded py-4 px-6 bg-purple w-full text-white transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
                                             Start
                                         </button>
                                     </div>
@@ -322,7 +315,7 @@
                                     <small>30 days only</small>
                                     <div class="py-4"></div>
                                     <div class="px-4 mt-8">
-                                        <button type="button" data-target="contact-form" class="scroll-arrow py-2 px-4 border rounded py-4 px-6 bg-purple w-full text-purple transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                                        <button  aria-label="Get in contact" title="Start trial" type="button" data-target="contact-form" class="scroll-arrow py-2 px-4 border rounded py-4 px-6 bg-purple w-full text-purple transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
                                             Get in contact
                                         </button>
                                     </div>
@@ -410,7 +403,7 @@
                                 <textarea placeholder="Your message" required name="message" class=" w-full py-2 border-b-2 border-gray-200 mr-4"></textarea>
                             </div>
                             <div class="flex my-2 w-full">
-                                <button type="submit" class="mt-4 px-6 py-2 bg-purple-900 text-white">SUBMIT</button>
+                                <button  aria-label="Submit" title="Send message" type="submit" class="mt-4 px-6 py-2 bg-purple-900 text-white">SUBMIT</button>
                             </div>
                         </form>
                     </div>
