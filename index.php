@@ -65,7 +65,7 @@
             <ul>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="page-content">Home</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-intro">What</a></li>
-                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-what-block">Show</a></li>
+                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-what-block">How</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-features">Discover</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-pricing">Pricing</a></li>
                 <!-- <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-loyal">Loyalty</a></li> -->
@@ -103,7 +103,7 @@
         <ul class="main-nav flex-horiz" data-state="what">
             <li><a href="./" class="nav-intro wiggle-link active" data-new-state="intro">Home<span class="wiggle"></span></a></li>
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-intro">What</a></li>
-            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-gallery-block">Show</a></li>
+            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-gallery-block">How</a></li>
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-features">Discover</a></li>
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-pricing">Prices</a></li>
             <!-- <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-loyal">Loyalty</a></li> -->
@@ -158,7 +158,7 @@
                 <section class="js-monitor-scroll white-bg rule-below" data-active="off" id="medians-gallery">
                     <div class="lg:flex w-full" style=";" id="medians-gallery-block">
                         <div class="w-full mb-10" style="min-width:30%">
-                            <h3>What We Did</h3>
+                            <h3>How it works</h3>
                             <p class="text-xl font-semibold">Effortlessly Manage Your Gaming Cafe/lounge with Our Cloud-Based System.</p>
                             <p class="mt-4 ">Our system includes real-time monitoring, streamlined inventory management, and an easy-to-use interface that makes it simple to manage your gaming cafe.</p>
                         </div>
