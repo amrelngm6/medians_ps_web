@@ -200,17 +200,17 @@
                         <p>From real-time monitoring to streamlined inventory management, our system is designed to simplify your operations. </p>
                         <p class="yellow-text font-normal"><b>providing an exceptional gaming experience for your customers.</b> </p>
                         <div class="lg:flex gap gap-2 " style="margin: 10vh 0;">
-                            <div class="w-full border border-gray-100 py-10 px-2 mx-2 mb-2">
+                            <div class="w-full border border-gray-100 py-10 px-2 mx-2 my-2 ">
                                 <img alt="modern"src="./assets/technology.png" width="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">Modern look</h4>
                                 <p >Upgrading the user interface to be both awesome and intuitive. With our easy-to-use interface, followed customers' feedback.</p>
                             </div>
-                            <div class="w-full border border-gray-100 py-10 px-2 mx-2 mb-2">
+                            <div class="w-full border border-gray-100 py-10 px-2 mx-2 my-2 ">
                                 <img alt="real-time monitoring"src="./assets/digital-transformation.png" width="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">Monitoring</h4>
                                 <p >Get notified with the invertory & bookings alarms and get updated with the sysetm activities in real-time.</p>
                             </div>
-                            <div class="w-full border border-gray-100 py-10 px-2 mx-2 mb-2">
+                            <div class="w-full border border-gray-100 py-10 px-2 mx-2 my-2 ">
                                 <img alt="data automation"src="./assets/automate.png" width="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">Data science</h4>
                                 <p >Unlock the power of data to enhance your marketing strategy and better understand your audience's needs</p>
@@ -230,7 +230,7 @@
 
                         <div class="mt-10 w-full lg:flex">
                                                         
-                            <div class="mb-2 rounded-xl w-64 mx-auto text-center bg-white border-t-4 border-gray-500 rounded shadow text-gray-600 py-4 ">
+                            <div class="my-2  rounded-xl w-64 mx-auto text-center bg-white border-t-4 border-gray-500 rounded shadow text-gray-600 py-4 ">
                                 <div class="overflow-hidden">
                                     <div class="py-4 text-2xl font-medium text-gray-800 dark:text-white">
                                         Basic
@@ -246,7 +246,7 @@
                                             Free support
                                         </div>
                                     </div>
-                                    <div class="mb-2 text-2xl font-bold text-gray-500 dark:text-gray-200">
+                                    <div class="my-2  text-2xl font-bold text-gray-500 dark:text-gray-200">
                                         <span>180/EGP </span>
                                     </div>
                                     <div class="text-sm text-gray-500 dark:text-gray-200"> / month </div>
@@ -261,7 +261,7 @@
                             </div>
 
                
-                            <div class="mb-2 rounded-xl w-64 mx-auto text-center bg-white border-t-4 border-gray-500 rounded shadow text-gray-600 py-4 ">
+                            <div class="my-2  rounded-xl w-64 mx-auto text-center bg-white border-t-4 border-gray-500 rounded shadow text-gray-600 py-4 ">
                                 <div class="overflow-hidden">
                                     <div class="py-4 text-2xl font-medium text-gray-800 dark:text-white">
                                         Business
@@ -277,7 +277,7 @@
                                             Free support
                                         </div>
                                     </div>
-                                    <div class="mb-2 text-2xl font-bold text-gray-500 dark:text-gray-200">
+                                    <div class="my-2  text-2xl font-bold text-gray-500 dark:text-gray-200">
                                         <span>480/EGP </span>
                                     </div>
                                     <div class="text-sm text-gray-500 dark:text-gray-200"> / month </div>
@@ -292,7 +292,7 @@
                             </div>
 
                
-                            <div class="mb-2 rounded-xl w-64 mx-auto text-center bg-white border-t-4 border-gray-500 rounded shadow text-gray-600 py-4 ">
+                            <div class="my-2  rounded-xl w-64 mx-auto text-center bg-white border-t-4 border-gray-500 rounded shadow text-gray-600 py-4 ">
                                 <div class="overflow-hidden">
                                     <div class="py-4 text-2xl font-medium text-gray-800 dark:text-white">
                                         Trial
@@ -308,7 +308,7 @@
                                             Free support
                                         </div>
                                     </div>
-                                    <div class="mb-2 text-2xl font-bold text-gray-500 dark:text-gray-200">
+                                    <div class="my-2  text-2xl font-bold text-gray-500 dark:text-gray-200">
                                         <span>0/EGP </span>
                                     </div>
                                     <div class="text-sm text-gray-500 dark:text-gray-200"> / month </div>
@@ -334,15 +334,15 @@
                         <p>Join our loyalty program for exclusive benefits that supporting your business needs. </p>
                         <p class=""><b>Supporting each other let our business grow faster.</b> </p>
                         <div class="lg:flex" style="margin: 10vh 0;">
-                            <div class="mb-2">
+                            <div class="my-2 ">
                                 <h4 class="text-lg font-semibold yellow-text">Invite a friend</h4>
                                 <p >Based on your feedback with our solution, you can refer a friend and get rawards.</p>
                             </div>
-                            <div class="mb-2">
+                            <div class="my-2 ">
                                 <h4 class="text-lg font-semibold yellow-text">Redeem your points</h4>
                                 <p >Earn points and enjoy a <b>free subscription</b> for up to <b>1 year</b>, or access premium features .</p>
                             </div>
-                            <div class="mb-2">
+                            <div class="my-2 ">
                                 <h4 class="text-lg font-semibold yellow-text">Give us feedback</h4>
                                 <p >We appreciate your feedback that will help us to take your experience to the next level</p>
                             </div>
