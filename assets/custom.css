@@ -2549,3 +2549,8 @@ body.ar nav a
 {
   letter-spacing: 0;
 } 
+
+div#medians-gallery-block
+{
+  direction: ltr;
+}
