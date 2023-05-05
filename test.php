@@ -23,22 +23,26 @@ $ffmpeg = 'E:\Development\path\ffmpeg\bin\ffmpeg.exe';
 // }
 
 
-// Crop video
-shell_exec($ffmpeg.' -i screen.webm -vf "crop=1366:650:0:70" invoice-print-fast.webm');
+// // Crop video
+// shell_exec($ffmpeg.' -i screen.webm -vf "crop=1366:650:0:70" invoice-print-crop.webm');
 
-// Cut video
-// $code = $ffmpeg.' -ss 00:00:45.0 -i 1.webm -c copy -t 00:00:15.0  ./complete-booking-demo.webm ';
-// $code = $ffmpeg.'  -i screen.webm -vf "setpts=0.75*PTS"  ./invoice-print-fast.webm ';
+// // Cut video
+// // $code = $ffmpeg.' -ss 00:00:45.0 -i 1.webm -c copy -t 00:00:15.0  ./complete-booking-demo.webm ';
+// // $code = $ffmpeg.'  -i screen.webm -vf "setpts=0.75*PTS"  ./invoice-print-fast.webm ';
 
-// shell_exec($ffmpeg.' -i screen.webm -vf "scale=1000:480" invoice-print-fast.webm');
+// shell_exec($ffmpeg.' -i invoice-print-crop.webm -vf "scale=1000:480" invoice-print-fast.webm');
 
-// $code = $ffmpeg.' -i 0.mp4 -i new-booking-1.webm -filter_complex "[0:v][1:v] overlay=150:150" -c:a copy demo0.mp4';
-// $code = $ffmpeg.' -i 0.mp4 -i new-booking-1.webm -filter_complex "[0][1]overlay=x=(main_w-overlay_w)/2:y=(main_h-overlay_h)/2" -c:a copy demo0.mp4';
-$code = $ffmpeg.' -i 0.mp4 -i invoice-print-fast.webm -filter_complex "[0:v]setpts=PTS-STARTPTS[v0];[1:v]setpts=PTS-STARTPTS+.5/TB[v1];[v0][v1]overlay=x=(main_w-overlay_w)/2:y=(main_h-overlay_h)/2:eof_action=pass[out1]" -map [out1]  ./print-invoice.mp4';
+// // $code = $ffmpeg.' -i 0.mp4 -i new-booking-1.webm -filter_complex "[0:v][1:v] overlay=150:150" -c:a copy demo0.mp4';
+// // $code = $ffmpeg.' -i 0.mp4 -i new-booking-1.webm -filter_complex "[0][1]overlay=x=(main_w-overlay_w)/2:y=(main_h-overlay_h)/2" -c:a copy demo0.mp4';
+// $code = $ffmpeg.' -i 0.mp4 -i invoice-print-fast.webm -filter_complex "[0:v]setpts=PTS-STARTPTS[v0];[1:v]setpts=PTS-STARTPTS+.5/TB[v1];[v0][v1]overlay=x=(main_w-overlay_w)/2:y=(main_h-overlay_h)/2:eof_action=pass[out1]" -map [out1]  ./print-invoice.mp4';
 
-echo ($code);
-echo shell_exec($code);
+// echo ($code);
+// echo shell_exec($code);
 
+
+shell_exec($ffmpeg.' -i add-product.mp4 -i audio.mp3 -c:v copy -c:a aac add-product-music.mp4');
+shell_exec($ffmpeg.' -i complete-booking.mp4 -i audio.mp3 -c:v copy -c:a aac complete-booking-music.mp4');
+shell_exec($ffmpeg.' -i new-booking.mp4 -i audio.mp3 -c:v copy -c:a aac new-booking-music.mp4');
 
 
 
