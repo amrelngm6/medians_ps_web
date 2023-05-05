@@ -167,19 +167,6 @@
                             
                             <div class="owl-carousel videos px-2">
 
-                                <div data-target="video-1" class="play-video cursor-pointer relative w-full">
-                                    <h3 style="margin-bottom: 10px;" class="text-lg">How to create new booking</h3>
-                                    <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
-                                    <video loop class="rounded-2xl" id="video-1" ><source src="/assets/video/new-booking.mp4" type="video/mp4">Your browser does not support the video tag.</video>
-                                </div>
-                                <div data-target="video-2" class="play-video cursor-pointer relative w-full">
-                                    <h3 style="margin-bottom: 10px;" class="text-lg">How to add new products to booking</h3>
-                                    <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
-                                    <video loop class="rounded-2xl" id="video-2" >
-                                      <source src="/assets/video/add-product.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                    </video>
-                                </div>
                                 <div data-target="video-3" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;" class="text-lg">Complete booking and prepare for checkout</h3>
                                     <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
@@ -193,6 +180,19 @@
                                     <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
                                     <video loop class="rounded-2xl" id="video-4" >
                                       <source src="/assets/video/print-invoice.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                <div data-target="video-1" class="play-video cursor-pointer relative w-full">
+                                    <h3 style="margin-bottom: 10px;" class="text-lg">How to create new booking</h3>
+                                    <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
+                                    <video loop class="rounded-2xl" id="video-1" ><source src="/assets/video/new-booking.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+                                </div>
+                                <div data-target="video-2" class="play-video cursor-pointer relative w-full">
+                                    <h3 style="margin-bottom: 10px;" class="text-lg">How to add new products to booking</h3>
+                                    <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
+                                    <video loop class="rounded-2xl" id="video-2" >
+                                      <source src="/assets/video/add-product.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                     </video>
                                 </div>
