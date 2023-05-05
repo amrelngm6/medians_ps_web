@@ -163,14 +163,14 @@
                         
                     </div>
                 </section>
-                <section class="js-monitor-scroll white-bg rule-below" data-active="off" id="medians-gallery">
-                    <div class="lg:flex w-full" style=";" id="medians-gallery-block">
+                <section class="js-monitor-scroll white-bg rule-below" data-active="off" id="medians-gallery" >
+                    <div class="lg:flex w-full" style=";" id="medians-gallery-block"  style="direction: ltr;">
                         <div class="w-full mb-10" style="min-width:30%">
                             <h3>طريقة  العمل</h3>
                             <p class="text-xl font-semibold">البرنامج يعمل أونلاين من خلال حسابك الشخصي وحسب عدد الفروع.</p>
                             <p class="mt-4 ">مراقبة وتنبيهات فورية لكل العملياتو سهولة في التعاملة مع فيديوهات شرح   للخطوات الأساسية لشرح كيفية التعامل مع البرنامج.</p>
                         </div>
-                        <div class="w-full" style="direction: ltr;">
+                        <div class="w-full">
                             
                             <div class="owl-carousel videos px-2" >
 
