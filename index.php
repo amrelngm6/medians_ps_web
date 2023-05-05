@@ -6,7 +6,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Medians® PS gaming & cyber cafe management system</title>
+    <title>Medians PS gaming & cyber cafe management system</title>
     <meta name="description" content="Medians PS® is an solution that manage cyber cafes, gaming & playstation lounges branches witn inventory management.">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
     <meta property="og:title" content="Medians® PS & cyber cafe management system">

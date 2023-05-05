@@ -6,7 +6,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Medians® PSبرنامج لإدارة محلات البلايستيشن والألعاب </title>
+    <title>Medians PSبرنامج لإدارة محلات البلايستيشن والألعاب </title>
     <meta name="description" content="Medians® PS هو برنامج أونلاين يمكنك من خلاله إدارة محلات البلايستيشن والانترنت كافيه.  مع  تحكم كامل في المنتجات والمخازن والحجوزات والفواتير ">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
     <meta property="og:title" content="Medians® PSبرنامج لإدارة محلات البلايستيشن والألعاب">
