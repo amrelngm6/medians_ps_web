@@ -97,7 +97,7 @@
         </li>
     </ul>
     <nav class="pos-f js-watch-state about" data-state="" data-active="on" data-page-scrolled="">
-        <a href="./" class="logo logo-shield-wrap js-nav-logo js-watch-foreground-color"  style="width:180px">
+        <a href="./" class="logo logo-shield-wrap scroll-arrow" data-target="page-content"  style="width:180px">
             <img alt="medians ps system"src="/assets/whitelogo.png" style="width:100px">
         </a>
         <ul class="main-nav flex-horiz" data-state="what">
