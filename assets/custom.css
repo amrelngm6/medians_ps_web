@@ -2540,3 +2540,12 @@ video {
 {
   width: 250px;
 }
+
+body nav a 
+{
+  font-family: 'Cairo'; 
+}
+body.ar nav a
+{
+  letter-spacing: 0;
+} 

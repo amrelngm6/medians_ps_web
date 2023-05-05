@@ -522,7 +522,7 @@ body[data-state="project"] .sound-on-off, body[data-state="project"] .scroll-arr
   -moz-transition: 0.75s cubic-bezier(0.52, 0.01, 0.16, 1) 0.5s;
   transition: 0.75s cubic-bezier(0.52, 0.01, 0.16, 1) 0.5s; }
   .main-nav li {
-    margin: 0 1vw; }
+    margin: 0 1vw;width:auto; }
     .main-nav li:nth-child(1) a {
       -webkit-transition: 0.39s cubic-bezier(0.52, 0.01, 0.16, 1) 0.48s;
       -moz-transition: 0.39s cubic-bezier(0.52, 0.01, 0.16, 1) 0.48s;

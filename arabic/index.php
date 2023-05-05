@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <!-- saved from url=(0025)./ -->
-<html class="js webaudio cssgradients multiplebgs opacity csspointerevents supports svgclippaths no-touchevents cssanimations cssfilters cssmask csstransforms preserve3d csstransforms3d csstransitions backgroundblendmode" lang="en-GB" style="">
+<html class="js webaudio cssgradients multiplebgs opacity csspointerevents supports svgclippaths no-touchevents cssanimations cssfilters cssmask csstransforms preserve3d csstransforms3d csstransitions backgroundblendmode" lang="ar-EG" style="">
 <!--<![endif]-->
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Medians® PS gaming & cyber cafe management system</title>
-    <meta name="description" content="Medians PS® is an solution that manage cyber cafes, gaming & playstation lounges branches witn inventory management.">
+    <title>Medians® PSبرنامج لإدارة محلات البلايستيشن والألعاب </title>
+    <meta name="description" content="Medians® PS هو برنامج أونلاين يمكنك من خلاله إدارة محلات البلايستيشن والانترنت كافيه.  مع  تحكم كامل في المنتجات والمخازن والحجوزات والفواتير ">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-    <meta property="og:title" content="Medians® PS & cyber cafe management system">
+    <meta property="og:title" content="Medians® PSبرنامج لإدارة محلات البلايستيشن والألعاب">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ps.medianssolutions.com/">
     <meta property="og:image" content="https://https://ps.medianssolutions.com/launch.png">
-    <meta property="og:description" content="Welcome to Medians PS® cloud management system for cyber cafes & Playstation gaming lounges.">
+    <meta property="og:description" content="Medians® PS هو برنامج أونلاين يمكنك من خلاله إدارة محلات البلايستيشن والانترنت كافيه.  مع  تحكم كامل في المنتجات والمخازن والحجوزات والفواتير ">
     <link rel="apple-touch-icon" sizes="180x180" href="https://ps.medianssolutions.com/assets/whitelogo.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://ps.medianssolutions.com/assets/whitelogo.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://ps.medianssolutions.com/assets/whitelogo.png">
@@ -45,10 +45,17 @@
 
       gtag('config', 'G-NCF6FWPCBS');
     </script>
-
+    <style>
+        body h1, 
+        body h2,
+        body h3,
+        body h4 {
+            letter-spacing: 0;
+        }
+    </style>
 </head>
 
-<body  style="overflow-x: hidden;">
+<body  style="overflow-x: hidden; direction: rtl" class="ar">
     <div class="preloader-shield logo-shield-wrap pos-a-center between-content" data-color-state="white" data-active="off">
         <ul class="logo-shield pos-a full-size">
             <li></li>
@@ -63,14 +70,14 @@
     <div class="mob-nav js-mob-nav" data-active="off">
         <div>
             <ul>
-                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="page-content">Home</a></li>
-                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-intro">What</a></li>
-                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-gallery-block">How</a></li>
-                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-features">Discover</a></li>
-                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-pricing">Pricing</a></li>
+                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="page-content">الرئيسية</a></li>
+                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-intro">ما هو</a></li>
+                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-gallery-block">كيف يعمل</a></li>
+                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-features">إكتشف</a></li>
+                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-pricing">الاسعار</a></li>
                 <!-- <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-loyal">Loyalty</a></li> -->
-                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-who">Who</a></li>
-                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="contact-form">Start<span class="wiggle"></span></a></li>
+                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-who">من نحن</a></li>
+                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="contact-form">إبدأ<span class="wiggle"></span></a></li>
             </ul>
         </div>
         <div>
@@ -101,18 +108,18 @@
             <img alt="medians ps system"src="./assets/whitelogo.png" style="width:100px">
         </a>
         <ul class="main-nav flex-horiz" data-state="what">
-            <li><a href="./" class="nav-intro wiggle-link active" data-new-state="intro">Home<span class="wiggle"></span></a></li>
-            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-intro">What</a></li>
-            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-gallery-block">How</a></li>
-            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-features">Discover</a></li>
-            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-pricing">Prices</a></li>
+            <li><a href="./" class="nav-intro wiggle-link active" data-new-state="intro">الرئيسية<span class="wiggle"></span></a></li>
+            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-intro">ما هو</a></li>
+            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-gallery-block">كيف يعمل</a></li>
+            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-features">إكتشف</a></li>
+            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-pricing">الأسعار</a></li>
             <!-- <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-loyal">Loyalty</a></li> -->
-            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-who">Who</a></li>
-            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="contact-form">Start<span class="wiggle"></span></a></li>
+            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-who">من نحن</a></li>
+            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="contact-form">إبدا<span class="wiggle"></span></a></li>
         </ul>
         <div class="nav-contact flex">
-            <a target="_blank" class=" wiggle-link" href="https://gaming.medianssolutions.com/">APP<span class="wiggle"></span></a>
-            <a class=" px-2 mx-2 border-l-1 border-gray-100" href="/arabic"><img alt="language" width="16" src="/assets/internet.png" /></a>
+            <a target="_blank" class=" wiggle-link" href="https://gaming.medianssolutions.com/">التطبيق<span class="wiggle"></span></a>
+            <a class=" px-2 mx-2 border-l-1 border-gray-100" href="/"><img alt="language" width="16" src="/assets/internet.png" /></a>
         </div>
         <a href="./#" class="back-to-top-arrow-wrap js-back-to-top">
             <div class="scroll-arrow">
@@ -143,15 +150,15 @@
             <div class="scrolling-content-wrap" style="transform: translate3d(0px, 0px, 0px);">
                 <div class="flex-vert-center masterhead js-masterhead js-full-height" data-active="on" style="height: 600px;">
                     <p class="letter-split yellow-text mb-0" aria-label="STOP. thinking"><span class="char1" aria-hidden="true">St</span><span class="char2" aria-hidden="true">art</span><span class="char3" aria-hidden="true"> N</span><span class="char4" aria-hidden="true">o</span><span class="char5" aria-hidden="true">w.</span></p>
-                    <h1>MEDIANS PS Cloud management system</h1>
+                    <h1>ميديانس PS لتحكم في الحجوزات ,الالعاب والمنتجات</h1>
                 </div>
                 <section class="js-monitor-scroll" data-active="off" id="medians-intro">
                     <div class="content">
-                        <h3>STOP THINKING</h3>
-                        <p>Welcome to our cloud management system for cyber cafes & Playstation gaming lounges. Our platform offers a comprehensive solution for managing your gaming & cyber cafe operations, including time and access control, billing and payment processing, and reporting and analytics.</p>
+                        <h3>بدون تفكير</h3>
+                        <p>برنامج ميديانس لمحلات البلايستيشن والانترنت كافيه وجميع خدمات حجوزات الألعاب  . هيساعدك تتحكم في الحجوزات بشكل كامل ومع مميزات اساسية زى المنتجات والمشتريات والفواتير , وكمان تقارير شاملة لكل العمليات وتنبيهات بالمنتجات اللى أوشكت على النفاذ .</p>
                         <div class="text-center  mx-auto w-full ">
-                            <a href="javascript:;" data-target="contact-form" class="scroll-arrow my-10 mx-2 w-40 text-md py-4 px-6 border-white border" style="display:inline-block;" >Request an account</a>
-                            <a href="javascript:;" data-target="medians-gallery" class="scroll-arrow my-10 mx-2 w-40 text-md py-4 px-6 font-semibold" style="display:inline-block; color: #fff55a;">Discover more</a>
+                            <a href="javascript:;" data-target="contact-form" class="scroll-arrow my-10 mx-2 w-40 text-md py-4 px-6 border-white border" style="display:inline-block;" >حساب تجريبي</a>
+                            <a href="javascript:;" data-target="medians-gallery" class="scroll-arrow my-10 mx-2 w-40 text-md py-4 px-6 font-semibold" style="display:inline-block; color: #fff55a;">معلومات أكتر</a>
                         </div>
                         
                     </div>
@@ -159,21 +166,21 @@
                 <section class="js-monitor-scroll white-bg rule-below" data-active="off" id="medians-gallery">
                     <div class="lg:flex w-full" style=";" id="medians-gallery-block">
                         <div class="w-full mb-10" style="min-width:30%">
-                            <h3>How it works</h3>
-                            <p class="text-xl font-semibold">Effortlessly Manage Your Gaming Cafe/lounge with Our Cloud-Based System.</p>
-                            <p class="mt-4 ">Our system includes real-time monitoring, streamlined inventory management, and an easy-to-use interface that makes it simple to manage your gaming cafe.</p>
+                            <h3>طريقة  العمل</h3>
+                            <p class="text-xl font-semibold">البرنامج يعمل أونلاين من خلال حسابك الشخصي وحسب عدد الفروع.</p>
+                            <p class="mt-4 ">مراقبة وتنبيهات فورية لكل العملياتو سهولة في التعاملة مع فيديوهات شرح   للخطوات الأساسية لشرح كيفية التعامل مع البرنامج.</p>
                         </div>
-                        <div class="w-full">
+                        <div class="w-full" style="direction: ltr;">
                             
-                            <div class="owl-carousel videos px-2">
+                            <div class="owl-carousel videos px-2" >
 
                                 <div data-target="video-1" class="play-video cursor-pointer relative w-full">
-                                    <h3 style="margin-bottom: 10px;" class="text-lg">How to create new booking</h3>
+                                    <h3 style="margin-bottom: 10px; letter-spacing: 0;" class="text-lg">خطوات إنشاء حجز جديد</h3>
                                     <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
                                     <video loop class="rounded-2xl" id="video-1" ><source src="/assets/video/new-booking.mp4" type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
                                 <div data-target="video-2" class="play-video cursor-pointer relative w-full">
-                                    <h3 style="margin-bottom: 10px;" class="text-lg">How to add new products to booking</h3>
+                                    <h3 style="margin-bottom: 10px;letter-spacing: 0;" class="text-lg">طريقة إضافة منتجات الى حجز</h3>
                                     <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
                                     <video loop class="rounded-2xl" id="video-2" >
                                       <source src="/assets/video/add-product.mp4" type="video/mp4">
@@ -181,7 +188,7 @@
                                     </video>
                                 </div>
                                 <div data-target="video-3" class="play-video cursor-pointer relative w-full">
-                                    <h3 style="margin-bottom: 10px;" class="text-lg">Complete booking and prepare for checkout</h3>
+                                    <h3 style="margin-bottom: 10px;letter-spacing: 0;" class="text-lg">إنهاء الحجز والإنتقال الى خطوة الدفع</h3>
                                     <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
                                     <video loop class="rounded-2xl" id="video-3" >
                                       <source src="/assets/video/complete-booking.mp4" type="video/mp4">
@@ -197,24 +204,25 @@
                 <section class="js-monitor-scroll" style="padding-top: 100px" data-active="off" >
                     <div class="ledge ledge-minus-16-deg"></div>
                     <div class="content w-full" id="medians-features">
-                         <h3>Features</h3>
-                        <p>From real-time monitoring to streamlined inventory management, our system is designed to simplify your operations. </p>
-                        <p class="yellow-text font-normal"><b>providing an exceptional gaming experience for your customers.</b> </p>
+                         <h3>إستكشف اكتر</h3>
+                        <p>مراقبة لجميع العمليات والحجوزات مع تنبيهات فورية, وايضا خاصية الQRcode لفواتير العملاء وطباعتها على الفاتورة</p>
+                        <p class="yellow-text font-normal"><b>نهدف الى مساعدتك لتقديم خدمة  ترفيهية أفضل لعملائك.</b> </p>
                         <div class="lg:flex gap gap-2 " style="margin: 10vh 0;">
                             <div class="w-full border border-gray-100 py-10 px-2 mx-2 my-2 ">
                                 <img alt="modern"src="./assets/technology.png" width="100" style="margin: 0 auto;">
-                                <h4 class="text-lg font-semibold yellow-text">Modern look</h4>
-                                <p >Upgrading the user interface to be both awesome and intuitive. With our easy-to-use interface, followed customers' feedback.</p>
+                                <h4 class="text-lg font-semibold yellow-text">التصميم المناسب</h4>
+
+                                <p>أغلب التعديلات على التصميم يتم تنفيذها بناء على تحليل إستخدام العملاء , وبناء علي متطلبات العملاء والتحديثات الجديدة</p>
                             </div>
                             <div class="w-full border border-gray-100 py-10 px-2 mx-2 my-2 ">
                                 <img alt="real-time monitoring"src="./assets/digital-transformation.png" width="100" style="margin: 0 auto;">
-                                <h4 class="text-lg font-semibold yellow-text">Monitoring</h4>
-                                <p >Get notified with the invertory & bookings alarms and get updated with the sysetm activities in real-time.</p>
+                                <h4 class="text-lg font-semibold yellow-text">مراقبة العمل</h4>
+                                <p >تنبيهات فورية لأغلب الأنشطة المهمة زى إنتهاء حجز أو إنشاء فاتورة أو نفاذ كمية منتج من المخزون بشكل تفصيلي</p>
                             </div>
                             <div class="w-full border border-gray-100 py-10 px-2 mx-2 my-2 ">
                                 <img alt="data automation"src="./assets/automate.png" width="100" style="margin: 0 auto;">
-                                <h4 class="text-lg font-semibold yellow-text">Data science</h4>
-                                <p >Unlock the power of data to enhance your marketing strategy and better understand your audience's needs</p>
+                                <h4 class="text-lg font-semibold yellow-text">تحليل البيانات</h4>
+                                <p > البرنامج هيساعدك  تعرف أكثر الاجهزة إستخداما والالعاب والمنتجات المستهلكة للعملاء وايضا رغبات عملائك  </p>
                             </div>
                         </div>
                     </div>
@@ -224,8 +232,8 @@
                     <div class="content awards" id="medians-pricing">
                         <div class="w-full lg:flex">
                             <div class="w-full">
-                                <h3>Pricing</h3>
-                                <p  class="mb-10">Don't miss out on the benefits of our cloud-based management software. Start your free trial today and discover how it can transform the way you run your business.</p>
+                                <h3>الإسعار</h3>
+                                <p  class="mb-10">ممكن تبدأ النسخة التجريبية لمدة شهر . وتقدر تجرب كل المميزات على البرنامج قبل اى عملية دفع. وتتأكد من مدي احتياج البيزنس بتاعك للبرنامج..</p>
                             </div>
                         </div>
 
@@ -234,28 +242,28 @@
                             <div class="my-2  rounded-xl w-64 mx-auto text-center bg-white border-t-4 border-gray-500 rounded shadow text-gray-600 py-4 ">
                                 <div class="overflow-hidden">
                                     <div class="py-4 text-2xl font-medium text-gray-800 dark:text-white">
-                                        Basic
+                                        العادية
                                     </div>
                                     <div class="mb-10 text-sm font-light leading-loose text-gray-700 dark:text-gray-50">
                                         <div class="font-semibold pt-2">
-                                            Single branch
+                                            فرع واحد
                                         </div>
                                         <div class="font-normal pt-2">
-                                            All features
+                                            جميع المميزات
                                         </div>
                                         <div class="font-normal pt-2">
-                                            Free support
+                                            دعم  فني مجاني
                                         </div>
                                     </div>
                                     <div class="my-2  text-2xl font-bold text-gray-500 dark:text-gray-200">
                                         <span>180/EGP </span>
                                     </div>
-                                    <div class="text-sm text-gray-500 dark:text-gray-200"> / month </div>
-                                    <small>2000 Annually</small>
+                                    <div class="text-sm text-gray-500 dark:text-gray-200"> / شهريا </div>
+                                    <small>2000 سنويا</small>
                                     <div class="py-4"></div>
                                     <div class="px-4 mt-8">
                                         <button aria-label="Start" title="Start plan" type="button" data-target="contact-form" class="scroll-arrow py-2 px-4  bg-indigo-600 hover:bg-indigo-700 border rounded py-4 px-6 text-purple w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
-                                            Start
+                                            إبدأ
                                         </button>
                                     </div>
                                 </div>
@@ -265,28 +273,28 @@
                             <div class="my-2  rounded-xl w-64 mx-auto text-center bg-white border-t-4 border-gray-500 rounded shadow text-gray-600 py-4 ">
                                 <div class="overflow-hidden">
                                     <div class="py-4 text-2xl font-medium text-gray-800 dark:text-white">
-                                        Business
+                                        البيزنس
                                     </div>
                                     <div class="mb-10 text-sm font-light leading-loose text-gray-700 dark:text-gray-50">
                                         <div class="font-semibold pt-2">
-                                            Multi branches
+                                            فروع متعددة
                                         </div>
                                         <div class="font-normal pt-2">
-                                            All features
+                                            جميع المميزات
                                         </div>
                                         <div class="font-normal pt-2">
-                                            Free support
+                                            دعم  فني مجاني
                                         </div>
                                     </div>
                                     <div class="my-2  text-2xl font-bold text-gray-500 dark:text-gray-200">
                                         <span>480/EGP </span>
                                     </div>
-                                    <div class="text-sm text-gray-500 dark:text-gray-200"> / month </div>
-                                    <small>5500 Annually</small>
+                                    <div class="text-sm text-gray-500 dark:text-gray-200"> / شهريا </div>
+                                    <small>5500 سنويا</small>
                                     <div class="py-4"></div>
                                     <div class="px-4 mt-8">
                                         <button  aria-label="Start" title="Start plan" type="button" style="background:#7460ee" data-target="contact-form" class="scroll-arrow py-2 px-4  bg-indigo-600 hover:bg-indigo-700 border rounded py-4 px-6 bg-purple w-full text-white transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
-                                            Start
+                                            إبدأ
                                         </button>
                                     </div>
                                 </div>
@@ -296,28 +304,28 @@
                             <div class="my-2  rounded-xl w-64 mx-auto text-center bg-white border-t-4 border-gray-500 rounded shadow text-gray-600 py-4 ">
                                 <div class="overflow-hidden">
                                     <div class="py-4 text-2xl font-medium text-gray-800 dark:text-white">
-                                        Trial
+                                        تجريبي
                                     </div>
                                     <div class="mb-10 text-sm font-light leading-loose text-gray-700 dark:text-gray-50">
                                         <div class="font-semibold pt-2">
-                                            Trial version <small>( 30 days )</small>
+                                            نسخة تجريبية <small>( 30 يوم )</small>
                                         </div>
                                         <div class="font-normal pt-2">
-                                            All features
+                                            جميع المميزات
                                         </div>
                                         <div class="font-normal pt-2">
-                                            Free support
+                                            دعم فني مجاني
                                         </div>
                                     </div>
                                     <div class="my-2  text-2xl font-bold text-gray-500 dark:text-gray-200">
                                         <span>0/EGP </span>
                                     </div>
-                                    <div class="text-sm text-gray-500 dark:text-gray-200"> / month </div>
-                                    <small>30 days only</small>
+                                    <div class="text-sm text-gray-500 dark:text-gray-200"> / شهريا </div>
+                                    <small>30 يومفقط</small>
                                     <div class="py-4"></div>
                                     <div class="px-4 mt-8">
                                         <button  aria-label="Get in contact" title="Start trial" type="button" data-target="contact-form" class="scroll-arrow py-2 px-4 border rounded py-4 px-6 bg-purple w-full text-purple transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
-                                            Get in contact
+                                            تواصل معنا
                                         </button>
                                     </div>
                                 </div>
