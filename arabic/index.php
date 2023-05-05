@@ -232,7 +232,7 @@
                     <div class="content awards" id="medians-pricing">
                         <div class="w-full lg:flex">
                             <div class="w-full">
-                                <h3>الإسعار</h3>
+                                <h3>الأسعار</h3>
                                 <p  class="mb-10">ممكن تبدأ النسخة التجريبية لمدة شهر . وتقدر تجرب كل المميزات على البرنامج قبل اى عملية دفع. وتتأكد من مدي احتياج البيزنس بتاعك للبرنامج..</p>
                             </div>
                         </div>
