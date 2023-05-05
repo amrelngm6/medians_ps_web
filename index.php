@@ -188,10 +188,10 @@
                                     Your browser does not support the video tag.
                                     </video>
                                 </div>
-                                <div data-target="video-3" class="play-video cursor-pointer relative w-full">
+                                <div data-target="video-4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;" class="text-lg">Qr code to access the invoice online with printing</h3>
                                     <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
-                                    <video loop class="rounded-2xl" id="video-3" >
+                                    <video loop class="rounded-2xl" id="video-4" >
                                       <source src="/assets/video/print-invoice.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                     </video>
