@@ -19,7 +19,7 @@ $(document).ready(function() {
   });
 
 	$('.owl-carousel.videos').owlCarousel({
-      loop:true,
+      loop:false,
       nav:true,
       margin:20,
       center: true,
