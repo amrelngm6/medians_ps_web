@@ -24,17 +24,17 @@ $ffmpeg = 'E:\Development\path\ffmpeg\bin\ffmpeg.exe';
 
 
 // Crop video
-// shell_exec($ffmpeg.' -i 1.webm -vf "crop=1366:650:0:70" 1-trimmed.webm');
+shell_exec($ffmpeg.' -i screen.webm -vf "crop=1366:650:0:70" invoice-print-fast.webm');
 
 // Cut video
 // $code = $ffmpeg.' -ss 00:00:45.0 -i 1.webm -c copy -t 00:00:15.0  ./complete-booking-demo.webm ';
-$code = $ffmpeg.'  -i complete-booking-demo.webm -vf "setpts=0.75*PTS"  ./complete-booking-fast.webm ';
+// $code = $ffmpeg.'  -i screen.webm -vf "setpts=0.75*PTS"  ./invoice-print-fast.webm ';
 
-// shell_exec($ffmpeg.' -i 1-trimmed.webm -vf "scale=1000:480" 1.webm');
+// shell_exec($ffmpeg.' -i screen.webm -vf "scale=1000:480" invoice-print-fast.webm');
 
 // $code = $ffmpeg.' -i 0.mp4 -i new-booking-1.webm -filter_complex "[0:v][1:v] overlay=150:150" -c:a copy demo0.mp4';
 // $code = $ffmpeg.' -i 0.mp4 -i new-booking-1.webm -filter_complex "[0][1]overlay=x=(main_w-overlay_w)/2:y=(main_h-overlay_h)/2" -c:a copy demo0.mp4';
-$code = $ffmpeg.' -i 0.mp4 -i complete-booking-fast.webm -filter_complex "[0:v]setpts=PTS-STARTPTS[v0];[1:v]setpts=PTS-STARTPTS+.5/TB[v1];[v0][v1]overlay=x=(main_w-overlay_w)/2:y=(main_h-overlay_h)/2:eof_action=pass[out1]" -map [out1]  ./complete-booking.mp4';
+$code = $ffmpeg.' -i 0.mp4 -i invoice-print-fast.webm -filter_complex "[0:v]setpts=PTS-STARTPTS[v0];[1:v]setpts=PTS-STARTPTS+.5/TB[v1];[v0][v1]overlay=x=(main_w-overlay_w)/2:y=(main_h-overlay_h)/2:eof_action=pass[out1]" -map [out1]  ./print-invoice.mp4';
 
 echo ($code);
 echo shell_exec($code);
