@@ -174,6 +174,14 @@
                             
                             <div class="owl-carousel videos px-2" >
 
+                                <div data-target="video-4" class="play-video cursor-pointer relative w-full">
+                                    <h3 style="margin-bottom: 10px;" class="text-lg">خاصية Qr code للوصول الى الفاتورة وطباعتها</h3>
+                                    <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
+                                    <video loop class="rounded-2xl" id="video-4" >
+                                      <source src="/assets/video/print-invoice.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                    </video>
+                                </div>
                                 <div data-target="video-1" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px; letter-spacing: 0;" class="text-lg">خطوات إنشاء حجز جديد</h3>
                                     <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
@@ -192,14 +200,6 @@
                                     <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
                                     <video loop class="rounded-2xl" id="video-3" >
                                       <source src="/assets/video/complete-booking.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                    </video>
-                                </div>
-                                <div data-target="video-4" class="play-video cursor-pointer relative w-full">
-                                    <h3 style="margin-bottom: 10px;" class="text-lg">خاصية Qr code للوصول الى الفاتورة وطباعتها</h3>
-                                    <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
-                                    <video loop class="rounded-2xl" id="video-4" >
-                                      <source src="/assets/video/print-invoice.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                     </video>
                                 </div>
