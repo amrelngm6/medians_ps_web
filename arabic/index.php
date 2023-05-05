@@ -76,7 +76,7 @@
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-features">إكتشف</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-pricing">الاسعار</a></li>
                 <!-- <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-loyal">Loyalty</a></li> -->
-                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-who">من نحن</a></li>
+                <!-- <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-who">من نحن</a></li> -->
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="contact-form">إبدأ<span class="wiggle"></span></a></li>
             </ul>
         </div>
@@ -114,7 +114,7 @@
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-features">إكتشف</a></li>
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-pricing">الأسعار</a></li>
             <!-- <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-loyal">Loyalty</a></li> -->
-            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-who">من نحن</a></li>
+            <!-- <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-who">من نحن</a></li> -->
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="contact-form">إبدا<span class="wiggle"></span></a></li>
         </ul>
         <div class="nav-contact flex">
@@ -335,7 +335,7 @@
                     </div>
                 </section>
 
-
+<!-- 
                 <section class="js-monitor-scroll" style="padding-top: 100px" data-active="off" >
                     <div class="ledge ledge-minus-16-deg"></div>
                     <div class="content w-full" id="medians-loyal">
@@ -375,7 +375,7 @@
 
                         </div>
                     </div>
-                </section>
+                </section> -->
 
               <div style="height: 100vh; background: #fafafa; font-family:Abel" class=" text-center relative " id="contact">
                   <!-- <h4 class="text-white text-4xl uppercase animate__slow animate__animated animate__fadeInUpBig" style=" font-size:  52px;top: 20%; left: 0; right: 0;  position:absolute;z-index: 9; color: #fff; ">Discover World Medians</h4> -->
@@ -393,26 +393,26 @@
                             </div>
                             <div class="pb-4 mx-2">
                                 <img alt="address"src="/assets/address.png" width="30" style="margin:0 auto;">
-                                <p class="mt-2 text-white">140 - 26 July, Zamalek, Cairo</p>
+                                <p class="mt-2 text-white">140 - شارع  26 يوليو, الزمالك, القاهرة</p>
                             </div>
                         </div>
                     </div>
                     <div class=" px-10 sm:px-6 lg:px-20 md:px-20 xl:px-20 footer-contact-wrap" style=" max-width: 600px; float: right; position: relative;z-index: 999; width: 100%;">
-                        <h3 class="text-white text-2xl ">Start Your <span class="font-semibold"> Trial</span></h3>
+                        <h3 class="text-white text-2xl ">إبدأ نسختك  <span class="font-semibold"> التجريبية</span></h3>
                         <form action="/send.php" method="POST" class="my-10 my-4" id="contact-form">
                             <div class="flex">
-                                <input placeholder="Your name" required type="text" name="name" class="w-full py-2 border-b-2 border-gray-200 mr-4">
-                                <input placeholder="Your Mobile" required type="tel" name="mobile" class="w-full py-2 border-b-2 border-gray-200 mr-4">
+                                <input placeholder="الإسم" required type="text" name="name" class="w-full py-2 border-b-2 border-gray-200 mr-4">
+                                <input placeholder="الموبايل" required type="tel" name="mobile" class="w-full py-2 border-b-2 border-gray-200 mr-4">
                             </div>
                             <div class="flex">
-                                <input placeholder="Your email" type="email" name="email" class="w-full py-2 border-b-2 border-gray-200 mr-4">
-                                <input placeholder="Business name" type="text" name="branch" class="w-full py-2 border-b-2 border-gray-200 mr-4">
+                                <input placeholder="البريد الإلكتروني" type="email" name="email" class="w-full py-2 border-b-2 border-gray-200 mr-4">
+                                <input placeholder="اسم مكان العمل" type="text" name="branch" class="w-full py-2 border-b-2 border-gray-200 mr-4">
                             </div>
                             <div class="flex my-2 w-full">
-                                <textarea placeholder="Your message" required name="message" class=" w-full py-2 border-b-2 border-gray-200 mr-4"></textarea>
+                                <textarea placeholder="تفاصيل اكتر" required name="message" class=" w-full py-2 border-b-2 border-gray-200 mr-4"></textarea>
                             </div>
                             <div class="flex my-2 w-full">
-                                <button  aria-label="Submit" title="Send message" type="submit" class="mt-4 px-6 py-2 bg-purple-900 text-white">SUBMIT</button>
+                                <button  aria-label="Submit" title="Send message" type="submit" class="mt-4 px-6 py-2 bg-purple-900 text-white">إرسال</button>
                             </div>
                         </form>
                     </div>

@@ -69,7 +69,7 @@
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-features">Discover</a></li>
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-pricing">Pricing</a></li>
                 <!-- <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-loyal">Loyalty</a></li> -->
-                <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-who">Who</a></li>
+                <!-- <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="medians-who">Who</a></li> -->
                 <li><a href="javascript:;" class="scroll-arrow-mob js-mob-nav-btn" data-target="contact-form">Start<span class="wiggle"></span></a></li>
             </ul>
         </div>
@@ -107,7 +107,7 @@
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-features">Discover</a></li>
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-pricing">Prices</a></li>
             <!-- <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-loyal">Loyalty</a></li> -->
-            <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-who">Who</a></li>
+            <!-- <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="medians-who">Who</a></li> -->
             <li><a href="javascript:;" class="scroll-arrow nav-what wiggle-link" data-target="contact-form">Start<span class="wiggle"></span></a></li>
         </ul>
         <div class="nav-contact flex">
@@ -328,7 +328,7 @@
                 </section>
 
 
-                <section class="js-monitor-scroll" style="padding-top: 100px" data-active="off" >
+                <!-- <section class="js-monitor-scroll" style="padding-top: 100px" data-active="off" >
                     <div class="ledge ledge-minus-16-deg"></div>
                     <div class="content w-full" id="medians-loyal">
                          <h3>Loyalty system</h3>
@@ -367,7 +367,7 @@
 
                         </div>
                     </div>
-                </section>
+                </section> -->
 
               <div style="height: 100vh; background: #fafafa; font-family:Abel" class=" text-center relative " id="contact">
                   <!-- <h4 class="text-white text-4xl uppercase animate__slow animate__animated animate__fadeInUpBig" style=" font-size:  52px;top: 20%; left: 0; right: 0;  position:absolute;z-index: 9; color: #fff; ">Discover World Medians</h4> -->
