@@ -256,7 +256,7 @@
                                         </div>
                                     </div>
                                     <div class="my-2  text-2xl font-bold text-gray-500 dark:text-gray-200">
-                                        <span>180/EGP </span>
+                                        <span>200/EGP </span>
                                     </div>
                                     <div class="text-sm text-gray-500 dark:text-gray-200"> / month </div>
                                     <small>2000 Annually</small>
@@ -287,7 +287,7 @@
                                         </div>
                                     </div>
                                     <div class="my-2  text-2xl font-bold text-gray-500 dark:text-gray-200">
-                                        <span>480/EGP </span>
+                                        <span>500/EGP </span>
                                     </div>
                                     <div class="text-sm text-gray-500 dark:text-gray-200"> / month </div>
                                     <small>5500 Annually</small>
