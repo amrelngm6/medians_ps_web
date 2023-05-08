@@ -44,7 +44,13 @@ $ffmpeg = 'E:\Development\path\ffmpeg\bin\ffmpeg.exe';
 shell_exec($ffmpeg.' -i print-invoice.mp4 -i audio.mp3 -c:v copy -c:a aac music.mp4');
 
 
-'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -ss 00:00:01 -i 'assets/video/print-invoice.mp4' -frames:v 1 -q:v 2 print-invoice.jpg
+/** 
+ * Screen shots 
+ * */
+// 'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -ss 00:00:01 -i 'assets/video/print-invoice.mp4' -frames:v 1 -q:v 2 print-invoice.jpg
+
+
+'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -i assets/%8d.png -c:v libwebp assets/web/%8d.webp
 
 return null;
 
