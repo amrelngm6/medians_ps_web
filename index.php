@@ -143,7 +143,8 @@
             <div class="scrolling-content-wrap" style="transform: translate3d(0px, 0px, 0px);">
                 <div class="flex-vert-center masterhead js-masterhead js-full-height" data-active="on" style="height: 600px;">
                     <p class="letter-split yellow-text mb-0" ><span class="char1" >St</span><span class="char2" >art</span><span class="char3" > N</span><span class="char4" >o</span><span class="char5" >w.</span></p>
-                    <h1>MEDIANS PS Cloud management system</h1>
+                    <h1>MEDIANS PS cage & gaming lounge Cloud management system</h1>
+                    <h2>Manage your business effortlessly </h2>
                 </div>
                 <section class="js-monitor-scroll" data-active="off" id="medians-intro">
                     <div class="content">
