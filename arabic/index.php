@@ -150,7 +150,8 @@
             <div class="scrolling-content-wrap" style="transform: translate3d(0px, 0px, 0px);">
                 <div class="flex-vert-center masterhead js-masterhead js-full-height" data-active="on" style="height: 600px;">
                     <p class="letter-split yellow-text mb-0" aria-label="STOP. thinking"><span class="char1" aria-hidden="true">St</span><span class="char2" aria-hidden="true">art</span><span class="char3" aria-hidden="true"> N</span><span class="char4" aria-hidden="true">o</span><span class="char5" aria-hidden="true">w.</span></p>
-                    <h1>ميديانس PS لتحكم في الحجوزات ,الالعاب والمنتجات</h1>
+                    <h1 class="py-2">ميديانس PS لتحكم في الحجوزات ,الالعاب والمنتجات</h1>
+                    <h2>لادارة محلات البلايستيشن  و  الانترنت كافيه و ملاعب الخماسي</h2>
                 </div>
                 <section class="js-monitor-scroll" data-active="off" id="medians-intro">
                     <div class="content">
