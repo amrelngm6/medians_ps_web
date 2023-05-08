@@ -20,8 +20,8 @@
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="theme-color" content="#ffffff">
     <!-- All in One SEO Pack 2.10.1 by Michael Torbert of Semper Fi Web Design[353,372] -->
-    <link rel="canonical" href="https://ps.medianssolutions.com/">
-    <link rel="shortlink" href="https://ps.medianssolutions.com/">
+    <link rel="canonical" href="https://ps.medianssolutions.com/arabic">
+    <link rel="shortlink" href="https://ps.medianssolutions.com/arabic">
 
     <!-- CSS -->
     <link rel="stylesheet" href="../assets/main.css">
