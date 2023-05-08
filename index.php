@@ -142,7 +142,7 @@
         <div class="scrolling-content js-scrolling-content full-size pos-a-t-l what-content" data-state="what">
             <div class="scrolling-content-wrap" style="transform: translate3d(0px, 0px, 0px);">
                 <div class="flex-vert-center masterhead js-masterhead js-full-height" data-active="on" style="height: 600px;">
-                    <p class="letter-split yellow-text mb-0"><span class="char1" aria-hidden="true">St</span><span class="char2" aria-hidden="true">art</span><span class="char3" aria-hidden="true"> N</span><span class="char4" aria-hidden="true">o</span><span class="char5" aria-hidden="true">w.</span></p>
+                    <p class="letter-split yellow-text mb-0" aria-label="Start Now."><span class="char1" aria-hidden="true">St</span><span class="char2" aria-hidden="true">art</span><span class="char3" aria-hidden="true"> N</span><span class="char4" aria-hidden="true">o</span><span class="char5" aria-hidden="true">w.</span></p>
                     <h1>MEDIANS PS Cloud management system</h1>
                 </div>
                 <section class="js-monitor-scroll" data-active="off" id="medians-intro">
@@ -160,7 +160,7 @@
                     <div class="lg:flex w-full" style=";" id="medians-gallery-block">
                         <div class="w-full mb-10" style="min-width:30%">
                             <h3>How it works</h3>
-                            <p class="text-xl font-semibold">Effortlessly Manage Your Gaming Cafe/lounge with Our Cloud-Based System.</p>
+                            <p class="text-xl font-semibold" >Effortlessly Manage Your Gaming Cafe/lounge with Our Cloud-Based System.</p>
                             <p class="mt-4 ">Our system includes real-time monitoring, streamlined inventory management, and an easy-to-use interface that makes it simple to manage your gaming cafe.</p>
                         </div>
                         <div class="w-full">

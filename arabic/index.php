@@ -149,7 +149,7 @@
         <div class="scrolling-content js-scrolling-content full-size pos-a-t-l what-content" data-state="what">
             <div class="scrolling-content-wrap" style="transform: translate3d(0px, 0px, 0px);">
                 <div class="flex-vert-center masterhead js-masterhead js-full-height" data-active="on" style="height: 600px;">
-                    <p class="letter-split yellow-text mb-0" ><span class="char1" aria-hidden="true">St</span><span class="char2" aria-hidden="true">art</span><span class="char3" aria-hidden="true"> N</span><span class="char4" aria-hidden="true">o</span><span class="char5" aria-hidden="true">w.</span></p>
+                    <p class="letter-split yellow-text mb-0"  aria-label="Start Now."><span class="char1" aria-hidden="true">St</span><span class="char2" aria-hidden="true">art</span><span class="char3" aria-hidden="true"> N</span><span class="char4" aria-hidden="true">o</span><span class="char5" aria-hidden="true">w.</span></p>
                     <h1 class="py-2">لادارة محلات البلايستيشن  و  الانترنت كافيه و ملاعب الخماسي</h1>
                     <h2>ميديانس PS لتحكم في الحجوزات ,الالعاب والمنتجات</h2>
                 </div>
