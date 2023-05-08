@@ -24,17 +24,17 @@
     <link rel="shortlink" href="https://ps.medianssolutions.com/">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/assets/main.css">
-    <!-- <link rel="stylesheet" href="/assets/header.css"> -->
-    <!-- <link rel="stylesheet" href="/assets/fonts/stylesheet.css" > -->
-    <!-- <link rel="stylesheet" href="/assets/tailwind2.css"> -->
-    <link rel="stylesheet" href="/assets/custom.css">
+    <link rel="stylesheet" href="https://ps.medianssolutions.com/assets/main.css">
+    <!-- <link rel="stylesheet" href="https://ps.medianssolutions.com/assets/header.css"> -->
+    <!-- <link rel="stylesheet" href="https://ps.medianssolutions.com/assets/fonts/stylesheet.css" > -->
+    <!-- <link rel="stylesheet" href="https://ps.medianssolutions.com/assets/tailwind2.css"> -->
+    <link rel="stylesheet" href="https://ps.medianssolutions.com/assets/custom.css">
     <!-- OWL carousel -->
-    <link rel="stylesheet" href="/assets/owl/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://ps.medianssolutions.com/assets/owl/dist/assets/owl.carousel.min.css">
 
     <!-- JS -->
-    <script src="/assets/analytics.js"></script>
-    <script src="/assets/modernizr-custom.js"></script>
+    <script src="https://ps.medianssolutions.com/assets/analytics.js"></script>
+    <script src="https://ps.medianssolutions.com/assets/modernizr-custom.js"></script>
 
         <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NCF6FWPCBS"></script>
@@ -98,7 +98,7 @@
     </ul>
     <nav class="pos-f js-watch-state about" data-state="" data-active="on" data-page-scrolled="">
         <a href="javascript:;" class="logo logo-shield-wrap scroll-arrow" data-target="page-content"  style="width:180px">
-            <img alt="medians ps system"src="/assets/whitelogo.png" style="width:100px">
+            <img alt="medians ps system"src="https://ps.medianssolutions.com/assets/whitelogo.png" style="width:100px">
         </a>
         <ul class="main-nav flex-horiz" data-state="what">
             <li><a href="./" class="nav-intro wiggle-link active" data-new-state="intro">Home<span class="wiggle"></span></a></li>
@@ -112,7 +112,7 @@
         </ul>
         <div class="nav-contact flex">
             <a target="_blank" class=" wiggle-link" href="https://gaming.medianssolutions.com/">APP<span class="wiggle"></span></a>
-            <a class=" px-2 mx-2 border-l-1 border-gray-100" href="/arabic"><img alt="language" width="16" src="/assets/internet.png" /></a>
+            <a class=" px-2 mx-2 border-l-1 border-gray-100" href="/arabic"><img alt="language" width="16" height="16" src="https://ps.medianssolutions.com/assets/internet.png" /></a>
         </div>
         <a href="./#" class="back-to-top-arrow-wrap js-back-to-top">
             <div class="scroll-arrow">
@@ -167,28 +167,28 @@
                             
                             <div class="owl-carousel videos px-2">
 
-                                <div data-target="video-4" data-url="/assets/video/print-invoice.mp4" class="play-video cursor-pointer relative w-full">
+                                <div data-target="video-4" data-url="https://ps.medianssolutions.com/assets/video/print-invoice.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;" class="text-lg">Qr code to access the invoice online with printing</h3>
-                                    <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
-                                    <video class="rounded-2xl" id="video-4" poster="/assets/print-invoice.jpg" >
+                                    <img alt="video"style="width:50px ;height:50px" src="https://ps.medianssolutions.com/assets/svg.svg" class="centered">
+                                    <video class="rounded-2xl" id="video-4" poster="https://ps.medianssolutions.com/assets/print-invoice.jpg" >
                                       <source type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
-                                <div data-target="video-1" data-url="/assets/video/new-booking.mp4" class="play-video cursor-pointer relative w-full">
+                                <div data-target="video-1" data-url="https://ps.medianssolutions.com/assets/video/new-booking.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;" class="text-lg">How to create new booking</h3>
-                                    <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
-                                    <video class="rounded-2xl" id="video-1"  poster="/assets/new-booking.jpg" >
+                                    <img alt="video"style="width:50px ;height:50px" src="https://ps.medianssolutions.com/assets/svg.svg" class="centered">
+                                    <video class="rounded-2xl" id="video-1"  poster="https://ps.medianssolutions.com/assets/new-booking.jpg" >
                                         <source  type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
-                                <div data-target="video-2" data-url="/assets/video/add-product.mp4" class="play-video cursor-pointer relative w-full">
+                                <div data-target="video-2" data-url="https://ps.medianssolutions.com/assets/video/add-product.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;" class="text-lg">How to add new products to booking</h3>
-                                    <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
-                                    <video class="rounded-2xl" id="video-2"  poster="/assets/add-product.jpg" >
+                                    <img alt="video"style="width:50px ;height:50px" src="https://ps.medianssolutions.com/assets/svg.svg" class="centered">
+                                    <video class="rounded-2xl" id="video-2"  poster="https://ps.medianssolutions.com/assets/add-product.jpg" >
                                       <source type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
-                                <div data-target="video-3" data-url="/assets/video/complete-booking.mp4" class="play-video cursor-pointer relative w-full">
+                                <div data-target="video-3" data-url="https://ps.medianssolutions.com/assets/video/complete-booking.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;" class="text-lg">Complete booking and prepare for checkout</h3>
-                                    <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
-                                    <video class="rounded-2xl" id="video-3" poster="/assets/complete-booking.jpg">
+                                    <img alt="video"style="width:50px ;height:50px" src="https://ps.medianssolutions.com/assets/svg.svg" class="centered">
+                                    <video class="rounded-2xl" id="video-3" poster="https://ps.medianssolutions.com/assets/complete-booking.jpg">
                                       <source type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
                             </div>
@@ -205,17 +205,17 @@
                         <p class="yellow-text font-normal"><b>providing an exceptional gaming experience for your customers.</b> </p>
                         <div class="lg:flex gap gap-2 " style="margin: 10vh 0;">
                             <div class="w-full border border-gray-100 py-10 px-2 mx-2 my-2 ">
-                                <img alt="modern"src="/assets/technology.png" width="100" height="100" style="margin: 0 auto;">
+                                <img alt="modern"src="https://ps.medianssolutions.com/assets/technology.png" width="100" height="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">Modern look</h4>
                                 <p >Upgrading the user interface to be both awesome and intuitive. With our easy-to-use interface, followed customers' feedback.</p>
                             </div>
                             <div class="w-full border border-gray-100 py-10 px-2 mx-2 my-2 ">
-                                <img alt="real-time monitoring"src="/assets/digital-transformation.png" width="100" height="100" style="margin: 0 auto;">
+                                <img alt="real-time monitoring"src="https://ps.medianssolutions.com/assets/digital-transformation.png" width="100" height="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">Monitoring</h4>
                                 <p >Get notified with the invertory & bookings alarms and get updated with the sysetm activities in real-time.</p>
                             </div>
                             <div class="w-full border border-gray-100 py-10 px-2 mx-2 my-2 ">
-                                <img alt="data automation"src="/assets/automate.png"  width="100" height="100" style="margin: 0 auto;">
+                                <img alt="data automation"src="https://ps.medianssolutions.com/assets/automate.png"  width="100" height="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">Data science</h4>
                                 <p >Unlock the power of data to enhance your marketing strategy and better understand your audience's needs</p>
                             </div>
@@ -379,15 +379,15 @@
 
                         <div class="lg:flex footer-contact-info" style=" text-align: center; ">
                             <div class="pb-4 mx-2">
-                                <img alt="email"src="/assets/worldwide.png" width="30" height="30"  style="margin:0 auto;">
+                                <img alt="email"src="https://ps.medianssolutions.com/assets/worldwide.png" width="30" height="30"  style="margin:0 auto;">
                                 <p class="mt-2 text-white">info@medianssolutions.com</p>
                             </div>
                             <div class="pb-4 mx-2">
-                                <img alt="phone"src="/assets/call.png" width="30" height="30" style="margin:0 auto;">
+                                <img alt="phone"src="https://ps.medianssolutions.com/assets/call.png" width="30" height="30" style="margin:0 auto;">
                                 <p class="mt-2 text-white">(+2) 7357620</p>
                             </div>
                             <div class="pb-4 mx-2">
-                                <img alt="address"src="/assets/address.png" width="30" height="30" style="margin:0 auto;">
+                                <img alt="address"src="https://ps.medianssolutions.com/assets/address.png" width="30" height="30" style="margin:0 auto;">
                                 <p class="mt-2 text-white">140 - 26 July, Zamalek, Cairo</p>
                             </div>
                         </div>
@@ -497,20 +497,20 @@
 
 
 
-    <script src="/assets/jquery-1.11.3.min.js"></script>
-    <script src="/assets/assets.js"></script>
-    <!-- <script src="/assets/preloadjs-0.6.1.min.js"></script> -->
-    <!-- <script src="/assets/jquery.smoothState.min.js"></script> -->
-    <!-- <script src="/assets/TweenMax.min.js"></script> -->
-    <!-- <script src="/assets/ScrollToPlugin.min.js"></script> -->
-    <!-- <script src="/assets/jquery.lettering.min.js"></script> -->
-    <!-- <script src="/assets/vars.js"></script> -->
-    <!-- <script src="/assets/smooth-scrolling.js"></script> -->
-    <script src="/assets/owl/dist/owl.carousel.min.js"></script>
+    <script src="https://ps.medianssolutions.com/assets/jquery-1.11.3.min.js"></script>
+    <script src="https://ps.medianssolutions.com/assets/assets.js"></script>
+    <!-- <script src="https://ps.medianssolutions.com/assets/preloadjs-0.6.1.min.js"></script> -->
+    <!-- <script src="https://ps.medianssolutions.com/assets/jquery.smoothState.min.js"></script> -->
+    <!-- <script src="https://ps.medianssolutions.com/assets/TweenMax.min.js"></script> -->
+    <!-- <script src="https://ps.medianssolutions.com/assets/ScrollToPlugin.min.js"></script> -->
+    <!-- <script src="https://ps.medianssolutions.com/assets/jquery.lettering.min.js"></script> -->
+    <!-- <script src="https://ps.medianssolutions.com/assets/vars.js"></script> -->
+    <!-- <script src="https://ps.medianssolutions.com/assets/smooth-scrolling.js"></script> -->
+    <script src="https://ps.medianssolutions.com/assets/owl/dist/owl.carousel.min.js"></script>
 
-    <script src="/assets/main.js"></script>
-    <script src="/assets/jquery.touchSwipe.min.js"></script>
-    <script src="/assets/js.js"></script>
+    <script src="https://ps.medianssolutions.com/assets/main.js"></script>
+    <script src="https://ps.medianssolutions.com/assets/jquery.touchSwipe.min.js"></script>
+    <script src="https://ps.medianssolutions.com/assets/js.js"></script>
 
 </body>
 
