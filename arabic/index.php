@@ -149,7 +149,7 @@
         <div class="scrolling-content js-scrolling-content full-size pos-a-t-l what-content" data-state="what">
             <div class="scrolling-content-wrap" style="transform: translate3d(0px, 0px, 0px);">
                 <div class="flex-vert-center masterhead js-masterhead js-full-height" data-active="on" style="height: 600px;">
-                    <p class="letter-split yellow-text mb-0" aria-label="STOP. thinking"><span class="char1" aria-hidden="true">St</span><span class="char2" aria-hidden="true">art</span><span class="char3" aria-hidden="true"> N</span><span class="char4" aria-hidden="true">o</span><span class="char5" aria-hidden="true">w.</span></p>
+                    <p class="letter-split yellow-text mb-0" ><span class="char1" aria-hidden="true">St</span><span class="char2" aria-hidden="true">art</span><span class="char3" aria-hidden="true"> N</span><span class="char4" aria-hidden="true">o</span><span class="char5" aria-hidden="true">w.</span></p>
                     <h1 class="py-2">ميديانس PS لتحكم في الحجوزات ,الالعاب والمنتجات</h1>
                     <h2>لادارة محلات البلايستيشن  و  الانترنت كافيه و ملاعب الخماسي</h2>
                 </div>
@@ -267,7 +267,7 @@
                                     <small>2000 سنويا</small>
                                     <div class="py-4"></div>
                                     <div class="px-4 mt-8">
-                                        <button aria-label="Start" title="Start plan" type="button" data-target="contact-form" class="scroll-arrow py-2 px-4  bg-indigo-600 hover:bg-indigo-700 border rounded py-4 px-6 text-purple w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                                        <button aria-label="إبدأ" title="Start plan" type="button" data-target="contact-form" class="scroll-arrow py-2 px-4  bg-indigo-600 hover:bg-indigo-700 border rounded py-4 px-6 text-purple w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
                                             إبدأ
                                         </button>
                                     </div>
