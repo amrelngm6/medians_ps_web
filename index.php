@@ -114,7 +114,7 @@
             <a target="_blank" class=" wiggle-link" href="https://gaming.medianssolutions.com/">APP<span class="wiggle"></span></a>
             <a class=" px-2 mx-2 border-l-1 border-gray-100" href="/arabic"><img alt="language" width="16" height="16" src="./assets/internet.webp" /></a>
         </div>
-        <a href="./#" class="back-to-top-arrow-wrap js-back-to-top">
+        <a href="./#" class="back-to-top-arrow-wrap js-back-to-top"  aria-label="Back to top">
             <div class="scroll-arrow">
                 <span></span><span></span>
             </div>
