@@ -105,7 +105,7 @@
     </ul>
     <nav class="pos-f js-watch-state about" data-state="" data-active="on" data-page-scrolled="">
         <a href="javascript:;" class="logo logo-shield-wrap scroll-arrow" data-target="page-content"  style="width:180px">
-            <img alt="medians ps system" src="../assets/whitelogo.png" style="width:100px">
+            <img alt="medians ps system" width="100" height="79" src="../assets/whitelogo.png" style="width:100px">
         </a>
         <ul class="main-nav flex-horiz" data-state="what">
             <li><a href="./" class="nav-intro wiggle-link active" data-new-state="intro">الرئيسية<span class="wiggle"></span></a></li>
@@ -119,7 +119,7 @@
         </ul>
         <div class="nav-contact flex">
             <a target="_blank" class=" wiggle-link" href="https://gaming.medianssolutions.com/">التطبيق<span class="wiggle"></span></a>
-            <a class=" px-2 mx-2 border-l-1 border-gray-100" href="/"><img alt="language" width="16" src="../assets/internet.png" /></a>
+            <a class=" px-2 mx-2 border-l-1 border-gray-100" href="/"><img alt="language" width="16" height="16" src="../assets/internet.png" /></a>
         </div>
         <a href="./#" class="back-to-top-arrow-wrap js-back-to-top">
             <div class="scroll-arrow">
