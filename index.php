@@ -98,7 +98,7 @@
     </ul>
     <nav class="pos-f js-watch-state about" data-state="" data-active="on" data-page-scrolled="">
         <a href="javascript:;" class="logo logo-shield-wrap scroll-arrow" data-target="page-content"  style="width:180px">
-            <img alt="medians ps system"src="./assets/whitelogo.png" style="width:100px">
+            <img alt="medians ps system" width="100" height="79" src="../assets/whitelogo.png" style="width:100px">
         </a>
         <ul class="main-nav flex-horiz" data-state="what">
             <li><a href="./" class="nav-intro wiggle-link active" data-new-state="intro">Home<span class="wiggle"></span></a></li>
