@@ -25,9 +25,9 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/main.css">
-    <link rel="stylesheet" href="/assets/header.css">
-    <link rel="stylesheet" href="/assets/fonts/stylesheet.css" >
-    <link rel="stylesheet" href="/assets/tailwind2.css">
+    <!-- <link rel="stylesheet" href="/assets/header.css"> -->
+    <!-- <link rel="stylesheet" href="/assets/fonts/stylesheet.css" > -->
+    <!-- <link rel="stylesheet" href="/assets/tailwind2.css"> -->
     <link rel="stylesheet" href="/assets/custom.css">
     <!-- OWL carousel -->
     <link rel="stylesheet" href="/assets/owl/dist/assets/owl.carousel.min.css">
@@ -503,14 +503,14 @@
 
 
     <script src="/assets/jquery-1.11.3.min.js"></script>
-    <script src="/assets/preloadjs-0.6.1.min.js"></script>
-    <!-- <script src="/assets/soundjs-0.6.1.min.js"></script> -->
-    <script src="/assets/jquery.smoothState.min.js"></script>
-    <script src="/assets/TweenMax.min.js"></script>
-    <script src="/assets/ScrollToPlugin.min.js"></script>
-    <script src="/assets/jquery.lettering.min.js"></script>
-    <script src="/assets/vars.js"></script>
-    <script src="/assets/smooth-scrolling.js"></script>
+    <script src="/assets/assets.js"></script>
+    <!-- <script src="/assets/preloadjs-0.6.1.min.js"></script> -->
+    <!-- <script src="/assets/jquery.smoothState.min.js"></script> -->
+    <!-- <script src="/assets/TweenMax.min.js"></script> -->
+    <!-- <script src="/assets/ScrollToPlugin.min.js"></script> -->
+    <!-- <script src="/assets/jquery.lettering.min.js"></script> -->
+    <!-- <script src="/assets/vars.js"></script> -->
+    <!-- <script src="/assets/smooth-scrolling.js"></script> -->
     <script src="/assets/owl/dist/owl.carousel.min.js"></script>
 
     <script src="/assets/main.js"></script>
