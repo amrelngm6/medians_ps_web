@@ -24,17 +24,17 @@
     <link rel="shortlink" href="https://ps.medianssolutions.com/">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/assets/main.css">
-    <!-- <link rel="stylesheet" href="/assets/header.css"> -->
-    <!-- <link rel="stylesheet" href="/assets/fonts/stylesheet.css" > -->
-    <!-- <link rel="stylesheet" href="/assets/tailwind2.css"> -->
-    <link rel="stylesheet" href="/assets/custom.css">
+    <link rel="stylesheet" href="./assets/main.css">
+    <!-- <link rel="stylesheet" href="./assets/header.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/fonts/stylesheet.css" > -->
+    <!-- <link rel="stylesheet" href="./assets/tailwind2.css"> -->
+    <link rel="stylesheet" href="./assets/custom.css">
     <!-- OWL carousel -->
-    <link rel="stylesheet" href="/assets/owl/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/owl/dist/assets/owl.carousel.min.css">
 
     <!-- JS -->
-    <script src="/assets/analytics.js"></script>
-    <script src="/assets/modernizr-custom.js"></script>
+    <script src="./assets/analytics.js"></script>
+    <script src="./assets/modernizr-custom.js"></script>
 
         <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NCF6FWPCBS"></script>
@@ -105,7 +105,7 @@
     </ul>
     <nav class="pos-f js-watch-state about" data-state="" data-active="on" data-page-scrolled="">
         <a href="javascript:;" class="logo logo-shield-wrap scroll-arrow" data-target="page-content"  style="width:180px">
-            <img alt="medians ps system"src="/assets/whitelogo.png" style="width:100px">
+            <img alt="medians ps system" src="./assets/whitelogo.png" style="width:100px">
         </a>
         <ul class="main-nav flex-horiz" data-state="what">
             <li><a href="./" class="nav-intro wiggle-link active" data-new-state="intro">الرئيسية<span class="wiggle"></span></a></li>
@@ -119,7 +119,7 @@
         </ul>
         <div class="nav-contact flex">
             <a target="_blank" class=" wiggle-link" href="https://gaming.medianssolutions.com/">التطبيق<span class="wiggle"></span></a>
-            <a class=" px-2 mx-2 border-l-1 border-gray-100" href="/"><img alt="language" width="16" src="/assets/internet.png" /></a>
+            <a class=" px-2 mx-2 border-l-1 border-gray-100" href="/"><img alt="language" width="16" src="./assets/internet.png" /></a>
         </div>
         <a href="./#" class="back-to-top-arrow-wrap js-back-to-top">
             <div class="scroll-arrow">
@@ -174,28 +174,28 @@
                             
                             <div class="owl-carousel videos px-2" >
 
-                                <div data-target="video-4" data-url="/assets/video/print-invoice.mp4" class="play-video cursor-pointer relative w-full">
+                                <div data-target="video-4" data-url="./assets/video/print-invoice.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;" class="text-lg">خاصية Qr code للوصول الى الفاتورة وطباعتها</h3>
-                                    <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
-                                    <video class="rounded-2xl" title="خاصية Qr code للوصول الى الفاتورة وطباعتها" id="video-4" poster="/assets/print-invoice.jpg" >
+                                    <img alt="video"style="width:50px ;height:50px" src="./assets/svg.svg" class="centered">
+                                    <video class="rounded-2xl" title="خاصية Qr code للوصول الى الفاتورة وطباعتها" id="video-4" poster="./assets/print-invoice.jpg" >
                                       <source type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
-                                <div data-target="video-1" data-url="/assets/video/new-booking.mp4" class="play-video cursor-pointer relative w-full">
+                                <div data-target="video-1" data-url="./assets/video/new-booking.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px; letter-spacing: 0;" class="text-lg">خطوات إنشاء حجز جديد</h3>
-                                    <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
-                                    <video class="rounded-2xl" id="video-1"  poster="/assets/new-booking.jpg" title="خطوات إنشاء حجز جديد" >
+                                    <img alt="video"style="width:50px ;height:50px" src="./assets/svg.svg" class="centered">
+                                    <video class="rounded-2xl" id="video-1"  poster="./assets/new-booking.jpg" title="خطوات إنشاء حجز جديد" >
                                         <source  type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
-                                <div data-target="video-2" data-url="/assets/video/add-product.mp4" class="play-video cursor-pointer relative w-full">
+                                <div data-target="video-2" data-url="./assets/video/add-product.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;letter-spacing: 0;" class="text-lg">طريقة إضافة منتجات الى حجز</h3>
-                                    <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
-                                    <video class="rounded-2xl" id="video-2"  poster="/assets/add-product.jpg"  title="طريقة إضافة منتجات الى حجز">
+                                    <img alt="video"style="width:50px ;height:50px" src="./assets/svg.svg" class="centered">
+                                    <video class="rounded-2xl" id="video-2"  poster="./assets/add-product.jpg"  title="طريقة إضافة منتجات الى حجز">
                                       <source type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
-                                <div data-target="video-3" data-url="/assets/video/complete-booking.mp4" class="play-video cursor-pointer relative w-full">
+                                <div data-target="video-3" data-url="./assets/video/complete-booking.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;letter-spacing: 0;" class="text-lg">إنهاء الحجز والإنتقال الى خطوة الدفع</h3>
-                                    <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
-                                    <video class="rounded-2xl" id="video-3" poster="/assets/complete-booking.jpg" title="إنهاء الحجز والإنتقال الى خطوة الدفع">
+                                    <img alt="video"style="width:50px ;height:50px" src="./assets/svg.svg" class="centered">
+                                    <video class="rounded-2xl" id="video-3" poster="./assets/complete-booking.jpg" title="إنهاء الحجز والإنتقال الى خطوة الدفع">
                                       <source type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
 
@@ -213,18 +213,18 @@
                         <p class="yellow-text font-normal"><b>نهدف الى مساعدتك لتقديم خدمة  ترفيهية أفضل لعملائك.</b> </p>
                         <div class="lg:flex gap gap-2 " style="margin: 10vh 0;">
                             <div class="w-full border border-gray-100 py-10 px-2 mx-2 my-2 ">
-                                <img alt="modern"src="/assets/technology.png" width="100" height="100" style="margin: 0 auto;">
+                                <img alt="modern" src="./assets/technology.png" width="100" height="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">التصميم المناسب</h4>
 
                                 <p>أغلب التعديلات على التصميم يتم تنفيذها بناء على تحليل إستخدام العملاء , وبناء علي متطلبات العملاء والتحديثات الجديدة</p>
                             </div>
                             <div class="w-full border border-gray-100 py-10 px-2 mx-2 my-2 ">
-                                <img alt="real-time monitoring"src="/assets/digital-transformation.png" width="100" height="100" style="margin: 0 auto;">
+                                <img alt="real-time monitoring" src="./assets/digital-transformation.png" width="100" height="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">مراقبة العمل</h4>
                                 <p >تنبيهات فورية لأغلب الأنشطة المهمة زى إنتهاء حجز أو إنشاء فاتورة أو نفاذ كمية منتج من المخزون بشكل تفصيلي</p>
                             </div>
                             <div class="w-full border border-gray-100 py-10 px-2 mx-2 my-2 ">
-                                <img alt="data automation"src="/assets/automate.png" width="100" height="100" style="margin: 0 auto;">
+                                <img alt="data automation" src="./assets/automate.png" width="100" height="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">تحليل البيانات</h4>
                                 <p > البرنامج هيساعدك  تعرف أكثر الاجهزة إستخداما والالعاب والمنتجات المستهلكة للعملاء وايضا رغبات عملائك  </p>
                             </div>
@@ -388,15 +388,15 @@
 
                         <div class="lg:flex footer-contact-info" style=" text-align: center; ">
                             <div class="pb-4 mx-2">
-                                <img alt="email"src="/assets/worldwide.png" width="30" height="30"  style="margin:0 auto;">
+                                <img alt="email" src="./assets/worldwide.png" width="30" height="30"  style="margin:0 auto;">
                                 <p class="mt-2 text-white">info@medianssolutions.com</p>
                             </div>
                             <div class="pb-4 mx-2">
-                                <img alt="phone"src="/assets/call.png" width="30" height="30" style="margin:0 auto;">
+                                <img alt="phone" src="./assets/call.png" width="30" height="30" style="margin:0 auto;">
                                 <p class="mt-2 text-white">(+2) 7357620</p>
                             </div>
                             <div class="pb-4 mx-2">
-                                <img alt="address"src="/assets/address.png" width="30" height="30" style="margin:0 auto;">
+                                <img alt="address" src="./assets/address.png" width="30" height="30" style="margin:0 auto;">
                                 <p class="mt-2 text-white">140 - شارع  26 يوليو, الزمالك, القاهرة</p>
                             </div>
                         </div>
@@ -506,20 +506,20 @@
 
 
 
-    <script src="/assets/jquery-1.11.3.min.js"></script>
-    <script src="/assets/assets.js"></script>
-    <!-- <script src="/assets/preloadjs-0.6.1.min.js"></script> -->
-    <!-- <script src="/assets/jquery.smoothState.min.js"></script> -->
-    <!-- <script src="/assets/TweenMax.min.js"></script> -->
-    <!-- <script src="/assets/ScrollToPlugin.min.js"></script> -->
-    <!-- <script src="/assets/jquery.lettering.min.js"></script> -->
-    <!-- <script src="/assets/vars.js"></script> -->
-    <!-- <script src="/assets/smooth-scrolling.js"></script> -->
-    <script src="/assets/owl/dist/owl.carousel.min.js"></script>
+    <script src="./assets/jquery-1.11.3.min.js"></script>
+    <script src="./assets/assets.js"></script>
+    <!-- <script src="./assets/preloadjs-0.6.1.min.js"></script> -->
+    <!-- <script src="./assets/jquery.smoothState.min.js"></script> -->
+    <!-- <script src="./assets/TweenMax.min.js"></script> -->
+    <!-- <script src="./assets/ScrollToPlugin.min.js"></script> -->
+    <!-- <script src="./assets/jquery.lettering.min.js"></script> -->
+    <!-- <script src="./assets/vars.js"></script> -->
+    <!-- <script src="./assets/smooth-scrolling.js"></script> -->
+    <script src="./assets/owl/dist/owl.carousel.min.js"></script>
 
-    <script src="/assets/main.js"></script>
-    <script src="/assets/jquery.touchSwipe.min.js"></script>
-    <script src="/assets/js.js"></script>
+    <script src="./assets/main.js"></script>
+    <script src="./assets/jquery.touchSwipe.min.js"></script>
+    <script src="./assets/js.js"></script>
 </body>
 
 </html>
