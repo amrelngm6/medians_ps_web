@@ -213,18 +213,18 @@
                         <p class="yellow-text font-normal"><b>نهدف الى مساعدتك لتقديم خدمة  ترفيهية أفضل لعملائك.</b> </p>
                         <div class="lg:flex gap gap-2 " style="margin: 10vh 0;">
                             <div class="w-full border border-gray-100 py-10 px-2 mx-2 my-2 ">
-                                <img alt="modern"src="/assets/technology.png" width="100" style="margin: 0 auto;">
+                                <img alt="modern"src="/assets/technology.png" width="100" height="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">التصميم المناسب</h4>
 
                                 <p>أغلب التعديلات على التصميم يتم تنفيذها بناء على تحليل إستخدام العملاء , وبناء علي متطلبات العملاء والتحديثات الجديدة</p>
                             </div>
                             <div class="w-full border border-gray-100 py-10 px-2 mx-2 my-2 ">
-                                <img alt="real-time monitoring"src="/assets/digital-transformation.png" width="100" style="margin: 0 auto;">
+                                <img alt="real-time monitoring"src="/assets/digital-transformation.png" width="100" height="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">مراقبة العمل</h4>
                                 <p >تنبيهات فورية لأغلب الأنشطة المهمة زى إنتهاء حجز أو إنشاء فاتورة أو نفاذ كمية منتج من المخزون بشكل تفصيلي</p>
                             </div>
                             <div class="w-full border border-gray-100 py-10 px-2 mx-2 my-2 ">
-                                <img alt="data automation"src="/assets/automate.png" width="100" style="margin: 0 auto;">
+                                <img alt="data automation"src="/assets/automate.png" width="100" height="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">تحليل البيانات</h4>
                                 <p > البرنامج هيساعدك  تعرف أكثر الاجهزة إستخداما والالعاب والمنتجات المستهلكة للعملاء وايضا رغبات عملائك  </p>
                             </div>

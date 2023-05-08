@@ -205,17 +205,17 @@
                         <p class="yellow-text font-normal"><b>providing an exceptional gaming experience for your customers.</b> </p>
                         <div class="lg:flex gap gap-2 " style="margin: 10vh 0;">
                             <div class="w-full border border-gray-100 py-10 px-2 mx-2 my-2 ">
-                                <img alt="modern"src="/assets/technology.png" width="100" style="margin: 0 auto;">
+                                <img alt="modern"src="/assets/technology.png" width="100" height="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">Modern look</h4>
                                 <p >Upgrading the user interface to be both awesome and intuitive. With our easy-to-use interface, followed customers' feedback.</p>
                             </div>
                             <div class="w-full border border-gray-100 py-10 px-2 mx-2 my-2 ">
-                                <img alt="real-time monitoring"src="/assets/digital-transformation.png" width="100" style="margin: 0 auto;">
+                                <img alt="real-time monitoring"src="/assets/digital-transformation.png" width="100" height="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">Monitoring</h4>
                                 <p >Get notified with the invertory & bookings alarms and get updated with the sysetm activities in real-time.</p>
                             </div>
                             <div class="w-full border border-gray-100 py-10 px-2 mx-2 my-2 ">
-                                <img alt="data automation"src="/assets/automate.png" width="100" style="margin: 0 auto;">
+                                <img alt="data automation"src="/assets/automate.png"  width="100" height="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">Data science</h4>
                                 <p >Unlock the power of data to enhance your marketing strategy and better understand your audience's needs</p>
                             </div>
