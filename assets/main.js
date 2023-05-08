@@ -3,7 +3,8 @@ $(document).ready(function() {
 	$('.owl-carousel.carousel').owlCarousel({
       loop:true,
       margin:10,
-      nav:true,
+      dots: false,
+      nav:false,
       center: true,
       responsive:{
           0:{
@@ -20,7 +21,8 @@ $(document).ready(function() {
 
 	$('.owl-carousel.videos').owlCarousel({
       loop:false,
-      nav:true,
+      dots: false,
+      nav:false,
       margin:20,
       center: true,
       responsive:{
