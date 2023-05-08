@@ -150,13 +150,13 @@
             <div class="scrolling-content-wrap" style="transform: translate3d(0px, 0px, 0px);">
                 <div class="flex-vert-center masterhead js-masterhead js-full-height" data-active="on" style="height: 600px;">
                     <p class="letter-split yellow-text mb-0" ><span class="char1" aria-hidden="true">St</span><span class="char2" aria-hidden="true">art</span><span class="char3" aria-hidden="true"> N</span><span class="char4" aria-hidden="true">o</span><span class="char5" aria-hidden="true">w.</span></p>
-                    <h1 class="py-2">ميديانس PS لتحكم في الحجوزات ,الالعاب والمنتجات</h1>
-                    <h2>لادارة محلات البلايستيشن  و  الانترنت كافيه و ملاعب الخماسي</h2>
+                    <h1 class="py-2">لادارة محلات البلايستيشن  و  الانترنت كافيه و ملاعب الخماسي</h1>
+                    <h2>ميديانس PS لتحكم في الحجوزات ,الالعاب والمنتجات</h2>
                 </div>
                 <section class="js-monitor-scroll" data-active="off" id="medians-intro">
                     <div class="content">
                         <h3>بدون تفكير</h3>
-                        <p>برنامج ميديانس لمحلات البلايستيشن والانترنت كافيه وجميع خدمات حجوزات الألعاب  . هيساعدك تتحكم في الحجوزات بشكل كامل ومع مميزات اساسية زى المنتجات والمشتريات والفواتير , وكمان تقارير شاملة لكل العمليات وتنبيهات بالمنتجات اللى أوشكت على النفاذ .</p>
+                        <p>برنامج ميديانس ل<b>محلات البلايستيشن</b> والانترنت كافيه وجميع خدمات حجوزات الألعاب  . هيساعدك تتحكم في الحجوزات بشكل كامل ومع مميزات اساسية زى المنتجات والمشتريات والفواتير , وكمان تقارير شاملة لكل العمليات وتنبيهات بالمنتجات اللى أوشكت على النفاذ .</p>
                         <div class="text-center  mx-auto w-full ">
                             <a href="javascript:;" data-target="contact-form" class="scroll-arrow my-10 mx-2 w-40 text-md py-4 px-6 border-white border" style="display:inline-block;" >حساب تجريبي</a>
                             <a href="javascript:;" data-target="medians-gallery" class="scroll-arrow my-10 mx-2 w-40 text-md py-4 px-6 font-semibold" style="display:inline-block; color: #fff55a;">معلومات أكتر</a>
@@ -177,25 +177,25 @@
 
                                 <div data-target="video-4" data-url="../assets/video/print-invoice.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;" class="text-lg">خاصية Qr code للوصول الى الفاتورة وطباعتها</h3>
-                                    <img alt="video"style="width:50px ;height:50px" src="../assets/svg.svg" class="centered">
+                                    <img alt="لادارة محلات البلايستيشن و الانترنت كافيه و ملاعب الخماسي"style="width:50px ;height:50px" src="../assets/svg.svg" class="centered">
                                     <video class="rounded-2xl" title="خاصية Qr code للوصول الى الفاتورة وطباعتها" id="video-4" poster="../assets/print-invoice.webp" >
                                       <source type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
                                 <div data-target="video-1" data-url="../assets/video/new-booking.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px; letter-spacing: 0;" class="text-lg">خطوات إنشاء حجز جديد</h3>
-                                    <img alt="video"style="width:50px ;height:50px" src="../assets/svg.svg" class="centered">
+                                    <img alt="محلات البلايستيشن "style="width:50px ;height:50px" src="../assets/svg.svg" class="centered">
                                     <video class="rounded-2xl" id="video-1"  poster="../assets/new-booking.webp" title="خطوات إنشاء حجز جديد" >
                                         <source  type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
                                 <div data-target="video-2" data-url="../assets/video/add-product.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;letter-spacing: 0;" class="text-lg">طريقة إضافة منتجات الى حجز</h3>
-                                    <img alt="video"style="width:50px ;height:50px" src="../assets/svg.svg" class="centered">
+                                    <img alt="محلات البلايستيشن "style="width:50px ;height:50px" src="../assets/svg.svg" class="centered">
                                     <video class="rounded-2xl" id="video-2"  poster="../assets/add-product.webp"  title="طريقة إضافة منتجات الى حجز">
                                       <source type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
                                 <div data-target="video-3" data-url="../assets/video/complete-booking.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;letter-spacing: 0;" class="text-lg">إنهاء الحجز والإنتقال الى خطوة الدفع</h3>
-                                    <img alt="video"style="width:50px ;height:50px" src="../assets/svg.svg" class="centered">
+                                    <img alt="ملاعب الخماسي"style="width:50px ;height:50px" src="../assets/svg.svg" class="centered">
                                     <video class="rounded-2xl" id="video-3" poster="../assets/complete-booking.webp" title="إنهاء الحجز والإنتقال الى خطوة الدفع">
                                       <source type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>

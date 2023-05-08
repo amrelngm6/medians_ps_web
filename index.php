@@ -148,7 +148,7 @@
                 <section class="js-monitor-scroll" data-active="off" id="medians-intro">
                     <div class="content">
                         <h3>STOP THINKING</h3>
-                        <p>Welcome to our cloud management system for cyber cafes & Playstation gaming lounges. Our platform offers a comprehensive solution for managing your gaming & cyber cafe operations, including time and access control, billing and payment processing, and reporting and analytics.</p>
+                        <p>Welcome to our cloud management system for <b>cyber cafes</b> & <b>Playstation gaming lounges</b>. Our platform offers a comprehensive solution for managing your <b>gaming</b> & cyber cafe operations, including time and access control, billing and payment processing, and reporting and analytics.</p>
                         <div class="text-center  mx-auto w-full ">
                             <a href="javascript:;" data-target="contact-form" class="scroll-arrow my-10 mx-2 w-40 text-md py-4 px-6 border-white border" style="display:inline-block;" >Request an account</a>
                             <a href="javascript:;" data-target="medians-gallery" class="scroll-arrow my-10 mx-2 w-40 text-md py-4 px-6 font-semibold" style="display:inline-block; color: #fff55a;">Discover more</a>
@@ -169,13 +169,13 @@
 
                                 <div data-target="video-4" data-url="./assets/video/print-invoice.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;" class="text-lg">Qr code to access the invoice online with printing</h3>
-                                    <img alt="video"style="width:50px ;height:50px" src="./assets/svg.svg" class="centered">
+                                    <img alt="playstation cafe"style="width:50px ;height:50px" src="./assets/svg.svg" class="centered">
                                     <video class="rounded-2xl" id="video-4" poster="./assets/print-invoice.webp" >
                                       <source type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
                                 <div data-target="video-1" data-url="./assets/video/new-booking.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;" class="text-lg">How to create new booking</h3>
-                                    <img alt="video"style="width:50px ;height:50px" src="./assets/svg.svg" class="centered">
+                                    <img alt="gaming lounge"style="width:50px ;height:50px" src="./assets/svg.svg" class="centered">
                                     <video class="rounded-2xl" id="video-1"  poster="./assets/new-booking.webp" >
                                         <source  type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
