@@ -177,25 +177,25 @@
                                 <div data-target="video-4" data-url="/assets/video/print-invoice.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;" class="text-lg">خاصية Qr code للوصول الى الفاتورة وطباعتها</h3>
                                     <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
-                                    <video class="rounded-2xl" id="video-4" poster="/assets/print-invoice.jpg" >
+                                    <video class="rounded-2xl" title="خاصية Qr code للوصول الى الفاتورة وطباعتها" id="video-4" poster="/assets/print-invoice.jpg" >
                                       <source type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
                                 <div data-target="video-1" data-url="/assets/video/new-booking.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px; letter-spacing: 0;" class="text-lg">خطوات إنشاء حجز جديد</h3>
                                     <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
-                                    <video class="rounded-2xl" id="video-1"  poster="/assets/new-booking.jpg" >
+                                    <video class="rounded-2xl" id="video-1"  poster="/assets/new-booking.jpg" title="خطوات إنشاء حجز جديد" >
                                         <source  type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
                                 <div data-target="video-2" data-url="/assets/video/add-product.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;letter-spacing: 0;" class="text-lg">طريقة إضافة منتجات الى حجز</h3>
                                     <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
-                                    <video class="rounded-2xl" id="video-2"  poster="/assets/add-product.jpg" >
+                                    <video class="rounded-2xl" id="video-2"  poster="/assets/add-product.jpg"  title="طريقة إضافة منتجات الى حجز">
                                       <source type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
                                 <div data-target="video-3" data-url="/assets/video/complete-booking.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;letter-spacing: 0;" class="text-lg">إنهاء الحجز والإنتقال الى خطوة الدفع</h3>
                                     <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
-                                    <video class="rounded-2xl" id="video-3" poster="/assets/complete-booking.jpg">
+                                    <video class="rounded-2xl" id="video-3" poster="/assets/complete-booking.jpg" title="إنهاء الحجز والإنتقال الى خطوة الدفع">
                                       <source type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
 
