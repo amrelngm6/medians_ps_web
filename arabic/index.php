@@ -388,15 +388,15 @@
 
                         <div class="lg:flex footer-contact-info" style=" text-align: center; ">
                             <div class="pb-4 mx-2">
-                                <img alt="email"src="/assets/worldwide.png" width="30"  style="margin:0 auto;">
+                                <img alt="email"src="/assets/worldwide.png" width="30" height="30"  style="margin:0 auto;">
                                 <p class="mt-2 text-white">info@medianssolutions.com</p>
                             </div>
                             <div class="pb-4 mx-2">
-                                <img alt="phone"src="/assets/call.png" width="30"  style="margin:0 auto;">
+                                <img alt="phone"src="/assets/call.png" width="30" height="30" style="margin:0 auto;">
                                 <p class="mt-2 text-white">(+2) 7357620</p>
                             </div>
                             <div class="pb-4 mx-2">
-                                <img alt="address"src="/assets/address.png" width="30" style="margin:0 auto;">
+                                <img alt="address"src="/assets/address.png" width="30" height="30" style="margin:0 auto;">
                                 <p class="mt-2 text-white">140 - شارع  26 يوليو, الزمالك, القاهرة</p>
                             </div>
                         </div>
