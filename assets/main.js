@@ -38,8 +38,9 @@ $(document).ready(function() {
   
 
 
-function playVid(id) {
+function playVid(id, url) {
 		var vid = document.getElementById(id);
+		vid.src = url;
     vid.play();
 }
 
@@ -65,7 +66,7 @@ function pauseVid(id) {
 
 		$(this).toggleClass('playing')
 		$(this).find('img').toggle()
-		$(this).hasClass('playing') ? playVid($(this).data('target')) : pauseVid($(this).data('target'))
+		$(this).hasClass('playing') ? playVid($(this).data('target'), $(this).data('url')) : pauseVid($(this).data('target'))
 	});
 
 	stateChangeLink.on('click', function(e){

@@ -25,9 +25,9 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/main.css">
-    <link rel="stylesheet" href="/assets/header.css">
-    <link rel="stylesheet" href="/assets/fonts/stylesheet.css" >
-    <link rel="stylesheet" href="/assets/tailwind2.css">
+    <!-- <link rel="stylesheet" href="/assets/header.css"> -->
+    <!-- <link rel="stylesheet" href="/assets/fonts/stylesheet.css" > -->
+    <!-- <link rel="stylesheet" href="/assets/tailwind2.css"> -->
     <link rel="stylesheet" href="/assets/custom.css">
     <!-- OWL carousel -->
     <link rel="stylesheet" href="/assets/owl/dist/assets/owl.carousel.min.css">
@@ -174,35 +174,31 @@
                             
                             <div class="owl-carousel videos px-2" >
 
-                                <div data-target="video-4" class="play-video cursor-pointer relative w-full">
+                                <div data-target="video-4" data-url="/assets/video/print-invoice.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;" class="text-lg">خاصية Qr code للوصول الى الفاتورة وطباعتها</h3>
                                     <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
-                                    <video class="rounded-2xl" id="video-4" >
-                                      <source src="/assets/video/print-invoice.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                    </video>
+                                    <video class="rounded-2xl" id="video-4" poster="/assets/print-invoice.jpg" >
+                                      <source type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
-                                <div data-target="video-1" class="play-video cursor-pointer relative w-full">
+                                <div data-target="video-1" data-url="/assets/video/new-booking.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px; letter-spacing: 0;" class="text-lg">خطوات إنشاء حجز جديد</h3>
                                     <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
-                                    <video class="rounded-2xl" id="video-1" ><source src="/assets/video/new-booking.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+                                    <video class="rounded-2xl" id="video-1"  poster="/assets/new-booking.jpg" >
+                                        <source  type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
-                                <div data-target="video-2" class="play-video cursor-pointer relative w-full">
+                                <div data-target="video-2" data-url="/assets/video/add-product.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;letter-spacing: 0;" class="text-lg">طريقة إضافة منتجات الى حجز</h3>
                                     <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
-                                    <video class="rounded-2xl" id="video-2" >
-                                      <source src="/assets/video/add-product.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                    </video>
+                                    <video class="rounded-2xl" id="video-2"  poster="/assets/add-product.jpg" >
+                                      <source type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
-                                <div data-target="video-3" class="play-video cursor-pointer relative w-full">
+                                <div data-target="video-3" data-url="/assets/video/complete-booking.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;letter-spacing: 0;" class="text-lg">إنهاء الحجز والإنتقال الى خطوة الدفع</h3>
                                     <img alt="video"style="width:50px ;height:50px" src="/assets/svg.svg" class="centered">
-                                    <video class="rounded-2xl" id="video-3" >
-                                      <source src="/assets/video/complete-booking.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                    </video>
+                                    <video class="rounded-2xl" id="video-3" poster="/assets/complete-booking.jpg">
+                                      <source type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -511,20 +507,19 @@
 
 
     <script src="/assets/jquery-1.11.3.min.js"></script>
-    <script src="/assets/preloadjs-0.6.1.min.js"></script>
-    <!-- <script src="/assets/soundjs-0.6.1.min.js"></script> -->
-    <script src="/assets/jquery.smoothState.min.js"></script>
-    <script src="/assets/TweenMax.min.js"></script>
-    <script src="/assets/ScrollToPlugin.min.js"></script>
-    <script src="/assets/jquery.lettering.min.js"></script>
-    <script src="/assets/vars.js"></script>
-    <script src="/assets/smooth-scrolling.js"></script>
+    <script src="/assets/assets.js"></script>
+    <!-- <script src="/assets/preloadjs-0.6.1.min.js"></script> -->
+    <!-- <script src="/assets/jquery.smoothState.min.js"></script> -->
+    <!-- <script src="/assets/TweenMax.min.js"></script> -->
+    <!-- <script src="/assets/ScrollToPlugin.min.js"></script> -->
+    <!-- <script src="/assets/jquery.lettering.min.js"></script> -->
+    <!-- <script src="/assets/vars.js"></script> -->
+    <!-- <script src="/assets/smooth-scrolling.js"></script> -->
     <script src="/assets/owl/dist/owl.carousel.min.js"></script>
 
     <script src="/assets/main.js"></script>
     <script src="/assets/jquery.touchSwipe.min.js"></script>
     <script src="/assets/js.js"></script>
-
 </body>
 
 </html>
