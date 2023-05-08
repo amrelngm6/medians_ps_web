@@ -105,7 +105,7 @@
     </ul>
     <nav class="pos-f js-watch-state about" data-state="" data-active="on" data-page-scrolled="">
         <a href="javascript:;" class="logo logo-shield-wrap scroll-arrow" data-target="page-content"  style="width:180px">
-            <img alt="medians ps system" width="100" height="79" src="../assets/whitelogo.png" style="width:100px">
+            <img alt="medians ps system" width="100" height="79" src="../assets/whitelogo.webp" style="width:100px">
         </a>
         <ul class="main-nav flex-horiz" data-state="what">
             <li><a href="./" class="nav-intro wiggle-link active" data-new-state="intro">الرئيسية<span class="wiggle"></span></a></li>
@@ -119,7 +119,7 @@
         </ul>
         <div class="nav-contact flex">
             <a target="_blank" class=" wiggle-link" href="https://gaming.medianssolutions.com/">التطبيق<span class="wiggle"></span></a>
-            <a class=" px-2 mx-2 border-l-1 border-gray-100" href="/"><img alt="language" width="16" height="16" src="../assets/internet.png" /></a>
+            <a class=" px-2 mx-2 border-l-1 border-gray-100" href="/"><img alt="language" width="16" height="16" src="../assets/internet.webp" /></a>
         </div>
         <a href="./#" class="back-to-top-arrow-wrap js-back-to-top">
             <div class="scroll-arrow">
@@ -213,18 +213,18 @@
                         <p class="yellow-text font-normal"><b>نهدف الى مساعدتك لتقديم خدمة  ترفيهية أفضل لعملائك.</b> </p>
                         <div class="lg:flex gap gap-2 " style="margin: 10vh 0;">
                             <div class="w-full border border-gray-100 py-10 px-2 mx-2 my-2 ">
-                                <img alt="modern" src="../assets/technology.png" width="100" height="100" style="margin: 0 auto;">
+                                <img alt="modern" src="../assets/technology.webp" width="100" height="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">التصميم المناسب</h4>
 
                                 <p>أغلب التعديلات على التصميم يتم تنفيذها بناء على تحليل إستخدام العملاء , وبناء علي متطلبات العملاء والتحديثات الجديدة</p>
                             </div>
                             <div class="w-full border border-gray-100 py-10 px-2 mx-2 my-2 ">
-                                <img alt="real-time monitoring" src="../assets/digital-transformation.png" width="100" height="100" style="margin: 0 auto;">
+                                <img alt="real-time monitoring" src="../assets/digital-transformation.webp" width="100" height="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">مراقبة العمل</h4>
                                 <p >تنبيهات فورية لأغلب الأنشطة المهمة زى إنتهاء حجز أو إنشاء فاتورة أو نفاذ كمية منتج من المخزون بشكل تفصيلي</p>
                             </div>
                             <div class="w-full border border-gray-100 py-10 px-2 mx-2 my-2 ">
-                                <img alt="data automation" src="../assets/automate.png" width="100" height="100" style="margin: 0 auto;">
+                                <img alt="data automation" src="../assets/automate.webp" width="100" height="100" style="margin: 0 auto;">
                                 <h4 class="text-lg font-semibold yellow-text">تحليل البيانات</h4>
                                 <p > البرنامج هيساعدك  تعرف أكثر الاجهزة إستخداما والالعاب والمنتجات المستهلكة للعملاء وايضا رغبات عملائك  </p>
                             </div>
@@ -388,15 +388,15 @@
 
                         <div class="lg:flex footer-contact-info" style=" text-align: center; ">
                             <div class="pb-4 mx-2">
-                                <img alt="email" src="../assets/worldwide.png" width="30" height="30"  style="margin:0 auto;">
+                                <img alt="email" src="../assets/worldwide.webp" width="30" height="30"  style="margin:0 auto;">
                                 <p class="mt-2 text-white">info@medianssolutions.com</p>
                             </div>
                             <div class="pb-4 mx-2">
-                                <img alt="phone" src="../assets/call.png" width="30" height="30" style="margin:0 auto;">
+                                <img alt="phone" src="../assets/call.webp" width="30" height="30" style="margin:0 auto;">
                                 <p class="mt-2 text-white">(+2) 7357620</p>
                             </div>
                             <div class="pb-4 mx-2">
-                                <img alt="address" src="../assets/address.png" width="30" height="30" style="margin:0 auto;">
+                                <img alt="address" src="../assets/address.webp" width="30" height="30" style="margin:0 auto;">
                                 <p class="mt-2 text-white">140 - شارع  26 يوليو, الزمالك, القاهرة</p>
                             </div>
                         </div>

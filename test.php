@@ -50,7 +50,13 @@ shell_exec($ffmpeg.' -i print-invoice.mp4 -i audio.mp3 -c:v copy -c:a aac music.
 // 'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -ss 00:00:01 -i 'assets/video/print-invoice.mp4' -frames:v 1 -q:v 2 print-invoice.jpg
 
 
-'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -i assets/%8d.png -c:v libwebp assets/web/%8d.webp
+'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -i assets/automate.png -c:v libwebp assets/automate.webp
+'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -i assets/digital-transformation.png -c:v libwebp assets/digital-transformation.webp
+'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -i assets/technology.png -c:v libwebp assets/technology.webp
+'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -i assets/internet.png -c:v libwebp assets/technology.webp
+'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -i assets/worldwide.png -c:v libwebp assets/worldwide.webp
+'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -i assets/whitelogo.png -c:v libwebp assets/whitelogo.webp
+'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -i assets/bg.jpg -c:v libwebp assets/bg.webp
 
 return null;
 
