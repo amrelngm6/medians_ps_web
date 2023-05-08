@@ -168,12 +168,6 @@
                             
                             <div class="owl-carousel videos px-2">
 
-                                <div data-target="video-4" data-url="./assets/video/print-invoice.mp4" class="play-video cursor-pointer relative w-full">
-                                    <h3 style="margin-bottom: 10px;" class="text-lg">Qr code to access the invoice online with printing</h3>
-                                    <img alt="playstation cafe"style="width:50px ;height:50px" src="./assets/svg.svg" class="centered">
-                                    <video class="rounded-2xl" id="video-4" poster="./assets/print-invoice.webp" >
-                                      <source type="video/mp4">Your browser does not support the video tag.</video>
-                                </div>
                                 <div data-target="video-1" data-url="./assets/video/new-booking.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px;" class="text-lg">How to create new booking</h3>
                                     <img alt="gaming lounge"style="width:50px ;height:50px" src="./assets/svg.svg" class="centered">
@@ -190,6 +184,12 @@
                                     <h3 style="margin-bottom: 10px;" class="text-lg">Complete booking and prepare for checkout</h3>
                                     <img alt="video"style="width:50px ;height:50px" src="./assets/svg.svg" class="centered">
                                     <video class="rounded-2xl" id="video-3" poster="./assets/complete-booking.webp">
+                                      <source type="video/mp4">Your browser does not support the video tag.</video>
+                                </div>
+                                <div data-target="video-4" data-url="./assets/video/print-invoice.mp4" class="play-video cursor-pointer relative w-full">
+                                    <h3 style="margin-bottom: 10px;" class="text-lg">Qr code to access the invoice online with printing</h3>
+                                    <img alt="playstation cafe"style="width:50px ;height:50px" src="./assets/svg.svg" class="centered">
+                                    <video class="rounded-2xl" id="video-4" poster="./assets/print-invoice.webp" >
                                       <source type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
                             </div>

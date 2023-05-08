@@ -175,12 +175,6 @@
                             
                             <div class="owl-carousel videos px-2" >
 
-                                <div data-target="video-4" data-url="../assets/video/print-invoice.mp4" class="play-video cursor-pointer relative w-full">
-                                    <h3 style="margin-bottom: 10px;" class="text-lg">خاصية Qr code للوصول الى الفاتورة وطباعتها</h3>
-                                    <img alt="لادارة محلات البلايستيشن و الانترنت كافيه و ملاعب الخماسي"style="width:50px ;height:50px" src="../assets/svg.svg" class="centered">
-                                    <video class="rounded-2xl" title="خاصية Qr code للوصول الى الفاتورة وطباعتها" id="video-4" poster="../assets/print-invoice.webp" >
-                                      <source type="video/mp4">Your browser does not support the video tag.</video>
-                                </div>
                                 <div data-target="video-1" data-url="../assets/video/new-booking.mp4" class="play-video cursor-pointer relative w-full">
                                     <h3 style="margin-bottom: 10px; letter-spacing: 0;" class="text-lg">خطوات إنشاء حجز جديد</h3>
                                     <img alt="محلات البلايستيشن "style="width:50px ;height:50px" src="../assets/svg.svg" class="centered">
@@ -200,6 +194,12 @@
                                       <source type="video/mp4">Your browser does not support the video tag.</video>
                                 </div>
 
+                                <div data-target="video-4" data-url="../assets/video/print-invoice.mp4" class="play-video cursor-pointer relative w-full">
+                                    <h3 style="margin-bottom: 10px;" class="text-lg">خاصية Qr code للوصول الى الفاتورة وطباعتها</h3>
+                                    <img alt="لادارة محلات البلايستيشن و الانترنت كافيه و ملاعب الخماسي"style="width:50px ;height:50px" src="../assets/svg.svg" class="centered">
+                                    <video class="rounded-2xl" title="خاصية Qr code للوصول الى الفاتورة وطباعتها" id="video-4" poster="../assets/print-invoice.webp" >
+                                      <source type="video/mp4">Your browser does not support the video tag.</video>
+                                </div>
                             </div>
                         </div>
                     </div>
