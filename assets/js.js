@@ -36,7 +36,7 @@ jQuery('.scroll-arrow').on('click', function(){
     }, 2000);
 });
 
-jQuery('#contact-form').on('submit', function(){
+jQuery(document).on('submit', '#contact-form', function(){
   alert(1)
 });
 
