@@ -1,7 +1,9 @@
 <?php 
     try {
 
-        file_put_contents('assets/form.txt', file_get_contents('assets/form.txt')."\r\n".json_encode($_POST));
+        $data = json_encode($_POST);
+        
+        file_put_contents('assets/form.txt', file_get_contents('assets/form.txt')."\r\n".$data);
 
         !empty($_POST) ? mail('info@medianssolutions.com', 'New message', $data : '';
     
