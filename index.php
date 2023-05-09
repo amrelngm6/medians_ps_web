@@ -28,13 +28,13 @@
     <!-- <link rel="stylesheet" href="./assets/header.css"> -->
     <!-- <link rel="stylesheet" href="./assets/fonts/stylesheet.css" > -->
     <!-- <link rel="stylesheet" href="./assets/tailwind2.css"> -->
-    <link rel="stylesheet" href="./assets/custom.css">
     <!-- OWL carousel -->
     <link rel="stylesheet" href="./assets/owl/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/custom.css">
 
     <!-- JS -->
     <script src="./assets/analytics.js"></script>
-    <script src="./assets/modernizr-custom.js"></script>
+    <!-- <script src="./assets/modernizr-custom.js"></script> -->
 
         <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NCF6FWPCBS"></script>
@@ -508,10 +508,10 @@
     <!-- <script src="./assets/vars.js"></script> -->
     <!-- <script src="./assets/smooth-scrolling.js"></script> -->
     <script src="./assets/owl/dist/owl.carousel.min.js"></script>
-
-    <script src="./assets/main.js"></script>
     <script src="./assets/jquery.touchSwipe.min.js"></script>
-    <script src="./assets/js.js"></script>
+    <script src="./assets/main.js"></script>
+
+    <!-- <script src="./assets/js.js"></script> -->
 
 </body>
 

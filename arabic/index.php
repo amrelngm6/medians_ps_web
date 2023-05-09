@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Medians PSبرنامج لإدارة محلات البلايستيشن والألعاب </title>
-    <meta name="description" content="Medians® PS هو برنامج أونلاين يمكنك من خلاله إدارة محلات البلايستيشن والانترنت كافيه.  مع  تحكم كامل في المنتجات والمخازن والحجوزات والفواتير ">
+    <meta name="description" content="Medians® PS هو برنامج أونلاين يمكنك من خلاله إدارة محلات البلايستيشن والانترنت كافيه وملاعب الخماسي.  مع  تحكم كامل في المنتجات والمخازن والحجوزات والفواتير ">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
     <meta property="og:title" content="Medians® PSبرنامج لإدارة محلات البلايستيشن والألعاب">
     <meta property="og:type" content="website">
@@ -28,13 +28,13 @@
     <!-- <link rel="stylesheet" href="../assets/header.css"> -->
     <!-- <link rel="stylesheet" href="../assets/fonts/stylesheet.css" > -->
     <!-- <link rel="stylesheet" href="../assets/tailwind2.css"> -->
-    <link rel="stylesheet" href="../assets/custom.css">
     <!-- OWL carousel -->
     <link rel="stylesheet" href="../assets/owl/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/custom.css">
 
     <!-- JS -->
     <script src="../assets/analytics.js"></script>
-    <script src="../assets/modernizr-custom.js"></script>
+    <!-- <script src="../assets/modernizr-custom.js"></script> -->
 
         <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NCF6FWPCBS"></script>
