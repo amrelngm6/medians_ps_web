@@ -36,6 +36,10 @@ jQuery('.scroll-arrow').on('click', function(){
     }, 2000);
 });
 
+jQuery('#contact-form').on('submit', function(){
+  alert(1)
+});
+
 jQuery('.scroll-arrow-mob').on('click', function(){
   let div = jQuery(this).attr('data-target');
   jQuery('html, body').animate({
