@@ -6388,7 +6388,7 @@ body[data-state="project"] .sound-on-off, body[data-state="project"] .scroll-arr
 
 .mob-nav-btn {
   position: fixed;
-  top: 20px;
+  top: 40px;
   right: 25px;
   width: 50px;
   height: 50px;
