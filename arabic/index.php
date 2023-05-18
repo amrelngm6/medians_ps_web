@@ -521,6 +521,7 @@
 
     <script src="../assets/main.js"></script>
     <script src="../assets/jquery.touchSwipe.min.js"></script>
+    <script src="../assets/sweetalert2@11.js"></script>
     <script src="../assets/js.js"></script>
 </body>
 
