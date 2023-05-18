@@ -41,23 +41,42 @@ $ffmpeg = 'E:\Development\path\ffmpeg\bin\ffmpeg.exe';
 
 // shell_exec($ffmpeg.' -i add-product.mp4 -i audio.mp3 -c:v copy -c:a aac add-product-music.mp4');
 // shell_exec($ffmpeg.' -i complete-booking.mp4 -i audio.mp3 -c:v copy -c:a aac complete-booking-music.mp4');
-shell_exec($ffmpeg.' -i print-invoice.mp4 -i audio.mp3 -c:v copy -c:a aac music.mp4');
+// shell_exec($ffmpeg.' -i print-invoice.mp4 -i audio.mp3 -c:v copy -c:a aac music.mp4');
 
 
+
+/**
+ * Add text animated
+*/
+/*
+
+$input_file = "assets/video/0.mp4";
+$output_file = "output.mp4";
+$text = "How to create booking";
+$font_file = "arial.ttf";
+$position_x = 100;
+$position_y = "h/2";
+$font_size = 50;
+$start_time = 1.5;
+$end_time = 3.0;
+
+// $coded = " -filter_complex \"[0:v]drawtext=text='" . $text . "':fontfile=" . $font_file . ":x=" . $position_x . ":y=" . $position_y . ":fontsize=" . $font_size . ":alpha='if(gte(t," . $start_time . "),1,(t-" . ($start_time/2) . ")/" . ($start_time/2) . ")'[v]\" -map \"[v]\" -map 0:a " . $output_file;
+
+$code =  " -filter_complex \"[0:v]drawtext=text='" . $text . "':fontfile=" . $font_file . ":x=" . $position_x . ":y=" . $position_y . ":fontsize=" . $font_size . ":alpha='if(gte(t," . $start_time . "),1,(t-" . $start_time . ")/" . ($end_time - $start_time) . ")'[v]\" -map \"[v]\" -map 0:a " . $output_file;
+
+shell_exec($ffmpeg.' -i '.$input_file.' '.$code.' music.mp4');
+
+
+*/
 /** 
  * Screen shots 
  * */
 // 'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -ss 00:00:01 -i 'assets/video/print-invoice.mp4' -frames:v 1 -q:v 2 print-invoice.jpg
 
 
-'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -i facebook.png -c:v libwebp assets/facebook.webp
-'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -i assets/automate.png -c:v libwebp assets/automate.webp
-'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -i assets/digital-transformation.png -c:v libwebp assets/digital-transformation.webp
-'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -i assets/technology.png -c:v libwebp assets/technology.webp
-'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -i assets/internet.png -c:v libwebp assets/technology.webp
-'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -i assets/worldwide.png -c:v libwebp assets/worldwide.webp
-'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -i assets/whitelogo.png -c:v libwebp assets/whitelogo.webp
-'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -i assets/bg.jpg -c:v libwebp assets/bg.webp
+
+// Convert to WEBP
+// 'E:\Development\path\ffmpeg\bin\ffmpeg.exe' -i facebook.png -c:v libwebp assets/facebook.webp
 
 return null;
 

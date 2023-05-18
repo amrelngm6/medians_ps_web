@@ -1,3 +1,9 @@
+<?php
+
+$json_str = '{"name":"\u062d\u0633\u064a\u0646 \u0627\u0644\u0628\u0637\u0627\u0648\u0649","mobile":"01000600638","email":"husseinelkber99@gmail.com","branch":"\u0627\u0644\u063a\u0631\u0628\u064a\u0629","message":"\u0645\u062d\u0644 \u0628\u0644\u0627\u064a\u062a\u064a\u0633\u0646"}';
+$data = json_decode($json_str, true, 512, JSON_UNESCAPED_UNICODE);
+print_r($data);
+?>
 <!DOCTYPE html>
 <!-- saved from url=(0025)./ -->
 <html class="js webaudio cssgradients multiplebgs opacity csspointerevents supports svgclippaths no-touchevents cssanimations cssfilters cssmask csstransforms preserve3d csstransforms3d csstransitions backgroundblendmode" lang="en-GB" style="">
