@@ -396,7 +396,7 @@
                     </div>
                     <div class=" px-10 sm:px-6 lg:px-20 md:px-20 xl:px-20 footer-contact-wrap" style=" max-width: 600px; float: right; position: relative;z-index: 999; width: 100%;">
                         <h3 class="text-white text-2xl ">Start Your <span class="font-semibold"> Trial</span></h3>
-                        <form action="/send.php" method="POST" class="my-10 my-4" id="contact-form">
+                        <form action="/sends.php" method="POST" class="my-10 my-4" id="contact-form">
                             <div class="flex">
                                 <input placeholder="Your name" required type="text" name="name" class="w-full py-2 border-b-2 border-gray-200 mr-4">
                                 <input placeholder="Your Mobile" required type="tel" name="mobile" class="w-full py-2 border-b-2 border-gray-200 mr-4">
